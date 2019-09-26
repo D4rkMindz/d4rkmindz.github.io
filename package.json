@@ -1,0 +1,23 @@
+{
+  "name": "d4rkmindz.github.io",
+  "version": "1.0.0",
+  "description": "My personal blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/vuepress dev",
+    "build": "./node_modules/.bin/vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4rkmindz/d4rkmindz.github.io.git"
+  },
+  "author": "Björn Pfoster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d4rkmindz/d4rkmindz.github.io/issues"
+  },
+  "homepage": "https://d4rkmindz.github.io",
+  "dependencies": {
+    "vuepress": "^1.1.0"
+  }
+}
