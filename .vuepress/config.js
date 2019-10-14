@@ -51,7 +51,7 @@ module.exports = {
             tags: $page => $page.frontmatter.tags,
             twitterCard: $page => $page.title + ' - by @DevDarker',
             type: $page => {
-                if ($page.regularPath.startsWith('/blog')){
+                if ($page.regularPath.startsWith('/blog')) {
                     return 'article';
                 }
 
@@ -69,6 +69,8 @@ module.exports = {
             autoQuote: true,
             isPlain: false,
             fallbackImage: '/cover.png',
-        }]
+        }],
+        // https://github.com/tolking/vuepress-plugin-reading-progress
+        ['reading-progress', {fixed: 'top'}]
     ]
 };
