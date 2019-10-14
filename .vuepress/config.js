@@ -26,6 +26,9 @@ module.exports = {
     },
     locales: {
       '/': {
+        lang: 'en-GB',
+        title: 'A Dev Journal',
+        description: 'A pair of notes of a developer',
         selectText: 'Languages',
         label: 'English',
         ariaLabel: 'Languages',
@@ -52,6 +55,9 @@ module.exports = {
         ],
       },
       '/de/': {
+        lang: 'de-CH',
+        title: 'Ein Entwicklertagebuch',
+        description: 'Ein paar Notizen von einem Entwickler für Entwickler',
         selectText: 'Sprachen',
         label: 'Deutsch',
         ariaLabel: 'Sprachen',
