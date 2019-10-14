@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "5fba016d1f922bc6b17c79ea8d40d0e5"
+    "revision": "edfc81ebc403500e68dd84254a479302"
   },
   {
     "url": "assets/css/0.styles.22382368.css",
@@ -100,52 +100,56 @@ self.__precacheManifest = [
     "revision": "a1f7ab38866cc0a6b424c3027f9260d0"
   },
   {
-    "url": "assets/js/app.e45ed881.js",
-    "revision": "24c17c67b6d7a9d4fe2cc95ffb204257"
+    "url": "assets/js/app.4d139546.js",
+    "revision": "e7c78d28adbd1426a1e7364c7e558998"
+  },
+  {
+    "url": "cover.png",
+    "revision": "fbc1ae610f9ea5b673e720967245d442"
   },
   {
     "url": "index.html",
-    "revision": "eb25972657dd461536c533b2331b23c3"
+    "revision": "5174af678537f9a7224e8bb060ef9109"
   },
   {
     "url": "summaries/index.html",
-    "revision": "e882c74cd701b6ea820c6eaddc11580a"
+    "revision": "7dc34042caf30611f14aaaaf1057c9b9"
   },
   {
     "url": "summaries/phpmagazin/2019/june/column_de.html",
-    "revision": "2244d7c76056b4cb4c367c9d917c543d"
+    "revision": "8b1fa3c7bd87c36693f73f6ec8d0d913"
   },
   {
     "url": "summaries/phpmagazin/2019/june/column.html",
-    "revision": "960fe62998367469327290067424488c"
+    "revision": "02849a7c609f4e6dfa09cf59ef07b14b"
   },
   {
     "url": "summaries/phpmagazin/2019/june/index.html",
-    "revision": "a0a6ff7e739ef872eee28c5809085f50"
+    "revision": "769110a3ef5ec33ef75f350aa2487dda"
   },
   {
     "url": "summaries/phpmagazin/2019/june/the-five-best-PHP-frameworks_de.html",
-    "revision": "6a3ae59bbccf46ddc705362e8a4893ba"
+    "revision": "7cfbb0c6e065eef3d97e801cffbf9b8b"
   },
   {
     "url": "tutorials/index.html",
-    "revision": "54661462cdd6d9de99d0299a83a38273"
+    "revision": "5f9006d8338e927a24fa928d64a02190"
   },
   {
     "url": "tutorials/php/index.html",
-    "revision": "1118b5d3aae68e5d8182850eaac1d540"
+    "revision": "fd3709a3b125666a032d533bec11747d"
   },
   {
     "url": "tutorials/php/install-xdebug.html",
-    "revision": "9e4108e8d9d79b2ef98bc131df67d24f"
+    "revision": "eecade7bafff9db1f008c20599733eb5"
   },
   {
     "url": "tutorials/xampp/index.html",
-    "revision": "395a7a21472eeee0322e6309f32a5bb9"
+    "revision": "574ba6ea3e2edfcf2a9f4ebbc5d3130e"
   },
   {
     "url": "tutorials/xampp/upgrade.html",
-    "revision": "3d4b7e598fd009b3682f632422a1c364"
+    "revision": "eee2b2758e7316ff3587c19c0106c730"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
