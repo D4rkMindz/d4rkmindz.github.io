@@ -26,6 +26,7 @@ module.exports = {
                 ]
             },
             ['/summaries/', 'Summaries'],
+            ['https://darker.dev', 'About Me']
         ],
         contact: [
             {
@@ -37,6 +38,9 @@ module.exports = {
                 link: 'https://twitter.com/DevDarker',
             },
         ],
+    },
+    markdown: {
+        lineNumbers: true
     },
     plugins: [
         ['@vuepress/google-analytics', {
