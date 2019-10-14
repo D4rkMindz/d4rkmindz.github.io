@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "94ade96dc43c4e6aa2861f8a24cc748c"
+    "revision": "9228c91084e488cc08226c6526d980a9"
   },
   {
     "url": "assets/css/0.styles.22382368.css",
@@ -116,8 +116,8 @@ self.__precacheManifest = [
     "revision": "557b719494ee68d123b1ffe50d3cfba1"
   },
   {
-    "url": "assets/js/app.acf1f6c2.js",
-    "revision": "b82cb456c0a1375e3722d7b8a4cfdf49"
+    "url": "assets/js/app.1d256f76.js",
+    "revision": "dbe678b2e45520b52bc2ab32edc9f1cb"
   },
   {
     "url": "cover.png",
@@ -125,63 +125,63 @@ self.__precacheManifest = [
   },
   {
     "url": "de/index.html",
-    "revision": "e5a9ab642fe9b565fdae654c6b328247"
+    "revision": "b432051f292608095bf27d503c69f8c6"
   },
   {
     "url": "de/zusammenfassungen/phpmagazin/2019/june/die-besten-fünf-PHP-frameworks.html",
-    "revision": "90e47923baf065c6e23035e7f56154c9"
+    "revision": "4db43216954ca9d2d84f8eefab9655da"
   },
   {
     "url": "de/zusammenfassungen/phpmagazin/2019/june/index.html",
-    "revision": "0ecaf69c2c6ebb86fdbe9744ec74e6df"
+    "revision": "cfae6c1fc1b7c56661c76065d6913fa7"
   },
   {
     "url": "de/zusammenfassungen/phpmagazin/2019/june/kolumne.html",
-    "revision": "ba6015130f762746701fd9ce6bf01bb1"
+    "revision": "4c9db7349ac4799039b5efd4ee019e0a"
   },
   {
     "url": "index.html",
-    "revision": "9f92a65583bdd1061bff8d868eff414a"
+    "revision": "4d5ae14d229a06a311373dc196afdcef"
   },
   {
     "url": "summaries/index.html",
-    "revision": "d7ba5f0869b491af50eeefe69fc42adb"
+    "revision": "c370c365ff2113fbc1c11a86f8988819"
   },
   {
     "url": "summaries/phpmagazin/2019/june/column_de.html",
-    "revision": "5aa2e876215a49b1768f22f4a04b254d"
+    "revision": "fc00f14d04e8b67fa6793e4a464f4c2f"
   },
   {
     "url": "summaries/phpmagazin/2019/june/column.html",
-    "revision": "c263a50546699821688a99b0a8175deb"
+    "revision": "f46b3c5a38b12276a1d5d5173ee0bb6b"
   },
   {
     "url": "summaries/phpmagazin/2019/june/index.html",
-    "revision": "afdc7d2c3837451f48477dcc8d61872a"
+    "revision": "5633be875c0cb7c54f22d4dcbf0d5177"
   },
   {
     "url": "summaries/phpmagazin/2019/june/the-five-best-PHP-frameworks_de.html",
-    "revision": "97eeca20106be6a8ef82dfcd0bef4990"
+    "revision": "d43f69b4eb4a9932b97be52fe4b011b5"
   },
   {
     "url": "tutorials/index.html",
-    "revision": "a0001ab70bc4cec443804374c4f01fb6"
+    "revision": "101ef48eabae2cc0e69f195c5b66e6c6"
   },
   {
     "url": "tutorials/php/index.html",
-    "revision": "691ab89e8e72f63141013c74ef2360c2"
+    "revision": "c35527fe6ad776bda910eaaaa2ace2dc"
   },
   {
     "url": "tutorials/php/install-xdebug.html",
-    "revision": "7f2b5e79fcacc39eddb54a77a4225117"
+    "revision": "22668f64791e21085a1ea6a8b9804133"
   },
   {
     "url": "tutorials/xampp/index.html",
-    "revision": "c47ad1ff76f92724b17d713ac6c33b97"
+    "revision": "9b42ff44c215749d701cd407fe603670"
   },
   {
     "url": "tutorials/xampp/upgrade.html",
-    "revision": "95566057df54baa44da65ba29ea45840"
+    "revision": "fd6da363f61f5b042aaf3e7d174d6245"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
