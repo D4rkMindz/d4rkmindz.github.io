@@ -27,6 +27,16 @@ module.exports = {
             },
             ['/summaries/', 'Summaries'],
         ],
+        contact: [
+            {
+                type: 'github',
+                link: 'https://github.com/d4rkmindz',
+            },
+            {
+                type: 'twitter',
+                link: 'https://twitter.com/DevDarker',
+            },
+        ],
     },
     plugins: [
         ['@vuepress/google-analytics', {
@@ -51,7 +61,14 @@ module.exports = {
             image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
             publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
             modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
-
         }],
+        // https://github.com/ntnyq/vuepress-plugin-social-share
+        ['social-share', {
+            networks: ['twitter', 'facebook', 'reddit', 'telegram', 'whatsapp'],
+            twitterUser: 'DevDarker',
+            autoQuote: true,
+            isPlain: false,
+            fallbackImage: '/cover.png',
+        }]
     ]
 };
