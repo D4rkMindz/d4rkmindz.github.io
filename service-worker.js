@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "edfc81ebc403500e68dd84254a479302"
+    "revision": "2390e37c7f6cd37bbac036d317532d30"
   },
   {
     "url": "assets/css/0.styles.22382368.css",
@@ -32,35 +32,35 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.69989b78.js",
+    "url": "assets/js/10.14f65995.js",
     "revision": "0cdd34a967616cf975e52297bd7b8cfb"
   },
   {
-    "url": "assets/js/11.0f29f84d.js",
+    "url": "assets/js/11.0532b6df.js",
     "revision": "fada73ae0cf13de816e2d3622f67e7e0"
   },
   {
-    "url": "assets/js/12.8aa19776.js",
+    "url": "assets/js/12.f1aaecfb.js",
     "revision": "6ae119ce4fed63aa24cfdf662c19340e"
   },
   {
-    "url": "assets/js/13.c6f0814e.js",
+    "url": "assets/js/13.386f75e7.js",
     "revision": "ce8b4198206f6a8e0a7fa7d351189e73"
   },
   {
-    "url": "assets/js/14.6b006015.js",
+    "url": "assets/js/14.d534c021.js",
     "revision": "428013fbede5792b73d00c70172675e6"
   },
   {
-    "url": "assets/js/15.7c667703.js",
-    "revision": "bdf35cc34a6a777c2a1e9ab20d674ad0"
+    "url": "assets/js/15.2799e18e.js",
+    "revision": "bc039594a0ff9098f76a82d55ae297c3"
   },
   {
-    "url": "assets/js/16.d27756e2.js",
+    "url": "assets/js/16.54d91e9f.js",
     "revision": "1743987742e26a1a3b0d49b865a2070e"
   },
   {
-    "url": "assets/js/17.a1ef1b16.js",
+    "url": "assets/js/17.f2973026.js",
     "revision": "a095ba9f1f36f31de18e3775d0a334d5"
   },
   {
@@ -68,11 +68,11 @@ self.__precacheManifest = [
     "revision": "10557d9f156748f2a23aa33fe658127d"
   },
   {
-    "url": "assets/js/2.ac1110df.js",
+    "url": "assets/js/2.72b81314.js",
     "revision": "d5c8ad2d6978a8c3a2ad20187a92e9b5"
   },
   {
-    "url": "assets/js/3.37f899a6.js",
+    "url": "assets/js/3.c03c0779.js",
     "revision": "298f70bcec318e21a379804f52439186"
   },
   {
@@ -84,24 +84,24 @@ self.__precacheManifest = [
     "revision": "ece903cb2cd66b03007e9a647868bda5"
   },
   {
-    "url": "assets/js/6.4da41db1.js",
+    "url": "assets/js/6.5cf21165.js",
     "revision": "28ffbdbe4ed4ae9d1b113d7e7649bceb"
   },
   {
-    "url": "assets/js/7.23f49b1d.js",
+    "url": "assets/js/7.69c5cb7c.js",
     "revision": "1b0c08d76b404d642f4cae61f3ef5f32"
   },
   {
-    "url": "assets/js/8.8af654e4.js",
+    "url": "assets/js/8.35c5e907.js",
     "revision": "b44132c58bc0cef64061c7228fba5588"
   },
   {
-    "url": "assets/js/9.64f7491d.js",
+    "url": "assets/js/9.593bad82.js",
     "revision": "a1f7ab38866cc0a6b424c3027f9260d0"
   },
   {
-    "url": "assets/js/app.4d139546.js",
-    "revision": "e7c78d28adbd1426a1e7364c7e558998"
+    "url": "assets/js/app.505a2e89.js",
+    "revision": "d98fae8ca1539912dc419d644e9a7376"
   },
   {
     "url": "cover.png",
@@ -109,47 +109,47 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "5174af678537f9a7224e8bb060ef9109"
+    "revision": "4cdebfea3441840985844dca82782434"
   },
   {
     "url": "summaries/index.html",
-    "revision": "7dc34042caf30611f14aaaaf1057c9b9"
+    "revision": "b683c01d84c859b37b0639799c7ccb7e"
   },
   {
     "url": "summaries/phpmagazin/2019/june/column_de.html",
-    "revision": "8b1fa3c7bd87c36693f73f6ec8d0d913"
+    "revision": "74afbdd87177d48877b5b72ca6218031"
   },
   {
     "url": "summaries/phpmagazin/2019/june/column.html",
-    "revision": "02849a7c609f4e6dfa09cf59ef07b14b"
+    "revision": "f5f81500ae89756f79a89445ed894d24"
   },
   {
     "url": "summaries/phpmagazin/2019/june/index.html",
-    "revision": "769110a3ef5ec33ef75f350aa2487dda"
+    "revision": "7e3bd3f98e51a80a46be6e10a7f550dd"
   },
   {
     "url": "summaries/phpmagazin/2019/june/the-five-best-PHP-frameworks_de.html",
-    "revision": "7cfbb0c6e065eef3d97e801cffbf9b8b"
+    "revision": "8c03e44b4ae9c2b189132b945f763b21"
   },
   {
     "url": "tutorials/index.html",
-    "revision": "5f9006d8338e927a24fa928d64a02190"
+    "revision": "574a7c9d0ccc751b4615b90f06e82d76"
   },
   {
     "url": "tutorials/php/index.html",
-    "revision": "fd3709a3b125666a032d533bec11747d"
+    "revision": "9446365051ad33082f920d2f5f6b7453"
   },
   {
     "url": "tutorials/php/install-xdebug.html",
-    "revision": "eecade7bafff9db1f008c20599733eb5"
+    "revision": "8dc08c5cc1cbb81f22c5d9b74f26df00"
   },
   {
     "url": "tutorials/xampp/index.html",
-    "revision": "574ba6ea3e2edfcf2a9f4ebbc5d3130e"
+    "revision": "f5e9faf3883023607c9d2a2ffb27132e"
   },
   {
     "url": "tutorials/xampp/upgrade.html",
-    "revision": "eee2b2758e7316ff3587c19c0106c730"
+    "revision": "0ecb6887b94ff7e70262864ceacbc395"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
