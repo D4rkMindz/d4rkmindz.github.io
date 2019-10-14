@@ -71,6 +71,10 @@ module.exports = {
             fallbackImage: '/cover.png',
         }],
         // https://github.com/tolking/vuepress-plugin-reading-progress
-        ['reading-progress', {fixed: 'top'}]
+        ['reading-progress', {fixed: 'top'}],
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: true,
+        }],
     ]
 };
