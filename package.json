@@ -19,5 +19,8 @@
   "homepage": "https://d4rkmindz.github.io",
   "dependencies": {
     "vuepress": "^1.1.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0"
   }
 }

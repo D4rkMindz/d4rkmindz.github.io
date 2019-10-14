@@ -23,4 +23,12 @@ module.exports = {
             ['/summaries/', 'Summaries'],
         ],
     },
+    plugins: [
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-109045851-6',
+            }
+        ]
+    ]
 };
