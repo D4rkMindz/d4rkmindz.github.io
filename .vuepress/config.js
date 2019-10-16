@@ -79,7 +79,12 @@ module.exports = {
               ['/tutorials/xampp/', 'XAMPP (en)']
             ]
           },
-          ['/de/zusammenfassungen/', 'Zusammenfassungen'],
+          ['/de/artikel', 'Artikel'],
+          ['/de/installationen', 'Installationen'],
+          ['/de/ionic', 'Ionic'],
+          ['/de/lernjournal', 'Lernjournal'],
+          ['/de/module', 'Module'],
+          ['/de/wiki', 'wiki'],
           ['https://darker.dev', 'Über mich']
         ],
       },

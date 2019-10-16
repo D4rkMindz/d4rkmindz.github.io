@@ -1,0 +1,2 @@
+# 1. September 2017 - Präsentationsanfrage
+Heute habe ich dem Kunden ein Mail geschrieben, bezüglich einer Präsentation unseres Protoypens. Ich habe heute nichts von Ihm gehört. Ich werde morgen (resp. Montag) mich noch einmal bei dem Kunden melden.

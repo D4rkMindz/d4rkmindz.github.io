@@ -1,5 +1,28 @@
-# Mein Blog
+### Willkommen=
 
-Ich mag es zu schreiben. Ausserdem helfe ich gerne anderen Leuten.
+Das ist mein Lernjournal.
 
-Viel Spass beim lesen
+
+
+
+
+Upgrade DOKUWIKI via SSH: [here](https://www.dokuwiki.org/install:upgrade)
+
+
+
+
+### Letzte Änderungen
+
+{{changes>render = pagelist(header, user)&count=10}}
+
+
+
+### Inhaltsverzeichnis
+{{indexmenu>#1|js#tango.png navbar}}
+
+
+
+### TODOs
+~~TODOLIST~~
+
+

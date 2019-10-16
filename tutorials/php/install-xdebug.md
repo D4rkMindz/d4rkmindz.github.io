@@ -9,6 +9,8 @@ The creator of XDebug [Derick Rethans](https://github.com/derickr) (leave a ⭐)
 First, make sure Apache is not running in your [XAMPP control-panel](https://i.stack.imgur.com/z95JC.png).
 In order to install XDebug on Windows, you need to set the configuration of PHP to a file. To do this, open the terminal (WINDOWS + R, type `cmd`) and navigate to your desktop using and output the PHP configuration to a file.
 
+[asdf](/summaries/phpmagazin/2019/june/column.md)
+
 ```bash
 cd C:\Users\<your-username>\Desktop
 php -i > phpinfo.txt

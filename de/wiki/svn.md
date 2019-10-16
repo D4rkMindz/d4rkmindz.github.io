@@ -1,0 +1,2 @@
+# SVN
+Apache **S**ub**v**ersio**n** ist eine Applikation, mit welcher mehrere Leute am selben Projekt und an der selben Datei arbeiten können. Jeder User lädt die Datei regelmässig neu, um die Änderungen der anderen Benutzer zu erhalten. Damit andere Benutzer diese Änderungen überhaupt erhalten können, muss man sie zuerst hochladen.

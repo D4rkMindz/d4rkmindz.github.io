@@ -1,0 +1,2 @@
+## Open Source
+Open Source ist eine sehr gute Sache. Open Source ist, dass man den Code den man geschrieben hat, öffentlich zugänglich macht (Source Code des Programmes). So kann man sich, bei Fehlern verbessern lassen. Eine sehr bekannte Open Source Plattform ist [Github](https://github.com/). Github hat auch eine sehr grosse Community.

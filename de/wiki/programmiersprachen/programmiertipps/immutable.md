@@ -1,0 +1,2 @@
+## Immutable
+Immutable (engl.: unveränderlich) steht in der Softwareentwicklung für einen unveränderbaren Datensatz. Ein [Immutable Object](https://en.wikipedia.org/wiki/Immutable_object) kann, nachdem es einmal gesetzt wurde, seinen Zustand nicht mehr ändern.

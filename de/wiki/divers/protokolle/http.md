@@ -1,0 +1,2 @@
+### HTTP
+Das HyperText Transfer Protocol ist ein zustandsloses Protokoll, welches die Daten von Webseiten des World Wide Webs überträgt. Die Übertragung erfolgt über den Port 80 und Port 443 (Secure, HTTPS).

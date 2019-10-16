@@ -1,0 +1,2 @@
+## Objekt-Orientierte Programmiernug in PHP
+In PHP ist es möglich, neben [Prozeduraler Programmierung](/wiki/programmiersprachen/php/prozedural) seinen Code auch Objekt-Orientert zu Programmieren (OOP). Ein gutes Beispiel für OOP ist [Java](/wiki/programmiersprachen/java). Man schreibt alles in Klassen, welche in Namespaces definiert sind. Funktionen innerhalb dieser Klassen heissen Methoden.

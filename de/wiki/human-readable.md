@@ -1,0 +1,2 @@
+## Human Readable
+Als Human Readble (de: Menschenlesbar) bezeichnet man eine Informationsrepräsentation, die auf natürliche Weise von Menschen gelesen werden kann. In den meisten Zusammenhängen ist die dazu alternative Darstellung eine Darstellung von Daten, die primär gestaltet wurden, um von Computern gelesen zu werden, also maschinenlesbar zu sein.
