@@ -1,8 +1,8 @@
 # notifIt
 
-[NotifIt](http://naoxink.hol.es/notifIt/) ist eine [JQuery](/wiki/programmiersprachen/javascript/libraries/jquery) Erweiterung, welche Benachrichtigungen einfacher, schneller und schöner darstellen lässt.
+[NotifIt](http://naoxink.hol.es/notifIt/) ist eine [JQuery](/de/wiki/programmiersprachen/javascript/libraries/jquery) Erweiterung, welche Benachrichtigungen einfacher, schneller und schöner darstellen lässt.
 
-![No alt text available](/wiki/programmiersprachen/javascript/libraries/notifit.png )
+![No alt text available](/de/wiki/programmiersprachen/javascript/libraries/notifit.png )
 
 Dies lässt sich beispielsweise erreichen mit
 ```js

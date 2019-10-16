@@ -1,6 +1,6 @@
 ## Facebooks JavaScript-Bibliothek React
 [React](https://facebook.github.io/react/) ist eine von Facebook entwickelte Library welche (zurecht) in Konkurrenz zu [AngularJS](https://angular.io),
- Backbone.js und Ember.js steht. Der grösste Vorteil von React ist die kurze Ladezeit, da die Manipulation des [DOMs](/wiki/divers/dom) in einem Virtuellen 
+ Backbone.js und Ember.js steht. Der grösste Vorteil von React ist die kurze Ladezeit, da die Manipulation des [DOMs](/de/wiki/divers/dom) in einem Virtuellen 
  DOM stattfindet und erst am Ende der veränderte Teil des DOMs ersetzt wird. React wird wie jede andere JavaScript-Datei mittels eines <script>-Tags eingebunden.
 
 
@@ -290,7 +290,7 @@ const Report = React.createClass({
 });
 ```
 ### XSS Bremse
-Um [Cross Site Scriting](/wiki/hacking/xss) zu verhindern wird von React in der join() Funktion keine String Konkatenantion zugelassen. Deshalb muss man die gefundenen Elemente in ein code-Tag setzen.
+Um [Cross Site Scriting](/de/wiki/hacking/xss) zu verhindern wird von React in der join() Funktion keine String Konkatenantion zugelassen. Deshalb muss man die gefundenen Elemente in ein code-Tag setzen.
 ```
 const ReportRow = React.createClass({
   render: function() {

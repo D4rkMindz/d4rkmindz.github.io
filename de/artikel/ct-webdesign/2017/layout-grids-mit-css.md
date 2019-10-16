@@ -68,6 +68,6 @@ footer {
 Das Resultat dieses Codes sieht wie folgt aus
 
 
-![No alt text available](/artikel/ct-webdesign/2017/ct-webdeveloper-layout-grid-mit-css.png )
+![No alt text available](/de/artikel/ct-webdesign/2017/ct-webdeveloper-layout-grid-mit-css.png )
 ### Fazit
 CSS ist nun dank Grid viel mächtiger. Ausserdem scheint grid recht "einfach" zu sein. 

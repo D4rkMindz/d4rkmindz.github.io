@@ -1,12 +1,12 @@
 ## Frisch serviert
-Die relativ junge Library[Twig](/http/**twig.sensiolabs.org/) oder [Smarty](http://www.smarty.net/) zu entscheiden:
+Die relativ junge Library[Twig](/de/http/**twig.sensiolabs.org/) oder [Smarty](http://www.smarty.net/) zu entscheiden:
 
 
   * Einfachere Syntax für Personen, welche die PHP-Syntax nicht kennen
   * Die Syntax der Templatesprache hat den Fokus auf der Ausgabe von Daten
   * Hohe Wiederverwendbarkeit
-  * Durch den Sandbox Modus kann man [Session-Hijacking](/wiki/hacking/session-hijacking) und [SQL Injection](/wiki/hacking/sql-injection) verhindern
-  * Automatisches Escapen verhindert [Cross Site Scripting](/wiki/hacking/xss)
+  * Durch den Sandbox Modus kann man [Session-Hijacking](/de/wiki/hacking/session-hijacking) und [SQL Injection](/de/wiki/hacking/sql-injection) verhindern
+  * Automatisches Escapen verhindert [Cross Site Scripting](/de/wiki/hacking/xss)
 
 Der Nachteil bei den genannten Template-Engines ist, dass der Code zuerst kompiliert und in nativen PHP-Code gerendert werden muss.
 
@@ -21,7 +21,7 @@ View]] welche mit nativem PHP-Code Templates bauen haben gegenüber den anderen 
   * PHP-Entwickler müssen keine neue Syntax lernen
   * Unerfahrene Webentwickler können die Syntax, welche sie lernen müssen auch für andere Kontrollstrukturen verwenden
   * Keine Kompilierung
-  * Einfaches [Escaping](/wiki/escaping)
+  * Einfaches [Escaping](/de/wiki/escaping)
 
 Leider haben die Template-Engines, welche in nativem PHP-Code geschrieben sind keinen Sandbox Modus.
 
@@ -30,7 +30,7 @@ Leider haben die Template-Engines, welche in nativem PHP-Code geschrieben sind k
 
 
 ### Installation und Beispiel
-Um Plates installieren zu können braucht man mindestens [PHP 7.0](http://www.php.net/) und [Composer](/installationen/composer).
+Um Plates installieren zu können braucht man mindestens [PHP 7.0](http://www.php.net/) und [Composer](/de/installationen/composer).
 
 
 Danach gibt man im Root Verzeichnis des Projektes folgenden Befehl ein:

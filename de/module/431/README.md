@@ -34,37 +34,37 @@ Ein Portfolio ist kein Notizbuch. Notizbücher beinhalten in der Regel keine Ref
 
 ### Struktur
 Die Struktur meines ePortfolios ist ein bisschen komplexer. Wie man unten sieht, sind die Artikel Kompetenzen, Kreativitätsmethoden, Präsentationskonzept, Präsentationstechniken und Projektmanagement innerhalb des Modules 431 - ePortfolio. IPERKA jedoch befindet sich innerhalb meiner Wiki. Der Grund dafür ist, dass ich den Artikel IPERKA bereits vor Besuch des Modules erstellt habe und diesen dann auch nicht "umziehen" wollte. 
-![No alt text available](/module/struktur.png )
+![No alt text available](/de/module/struktur.png )
 
 
 
 Die im Bild dargestellten Artikel sind unter den folgenden Links verfügbar.
 
 
-[Kompetenzen](/module/431/kompetenzen)
+[Kompetenzen](/de/module/431/kompetenzen)
 
 
-[ Kreativitätsmethoden](/module/431/kreativitätsmethoden)
+[ Kreativitätsmethoden](/de/module/431/kreativitätsmethoden)
 
 
-[IPERKA](/wiki/iperka), [Praxisbeispiel](/wiki/iperka#praxis-_beispiel)
+[IPERKA](/de/wiki/iperka), [Praxisbeispiel](/de/wiki/iperka#praxis-_beispiel)
 
 
-[Präsentationskonzept](/module/431/praesentationskonzept)
+[Präsentationskonzept](/de/module/431/praesentationskonzept)
 
 
-[7 Präsentationstechniken](/module/431/praesentationstechniken)
+[7 Präsentationstechniken](/de/module/431/praesentationstechniken)
 
 
-[Projektmanagement](/module/431/projektmanagement)
+[Projektmanagement](/de/module/431/projektmanagement)
 
 
-[ Lernjournal](/lernjournal/start)
+[ Lernjournal](/de/lernjournal/)
 
 ----
 
 ### Fazit
-Ich habe in diesem Modul gelernt, wie ich sinnvoll etwas dokumentiere. Ich werde mein Lernjournal weiterhin fortführen, jedoch nicht mehr in "diesem" Bereich, da dieser nach der Abgabe für mich erledigt ist. Wenn Sie Lust und Interesse haben, was ich bis jetzt für mich selber dokumentiert habe, dann können Sie das unter [meiner Wiki](/wiki/programmierer) nachsehen. Ich habe neben dem ganzen Wissen, welches ich erlernt habe, jedoch auch gemerkt, wie mühsam es ist, Dokumentationen zu schreiben. Auch wenn es mir verhältnismässig leicht fällt, etwas zu dokumentieren, ist es trotzdem nicht sehr "spannend". Eine gewisse "Grund-Dokumentation" ist in meinen Augen jedoch notwendig. In eine solche "Grund-Dokumentation" würden genau die oben beschriebenen Themen fallen. Mehr ins Detail werde ich auch in Zukunft nicht gehen. 
+Ich habe in diesem Modul gelernt, wie ich sinnvoll etwas dokumentiere. Ich werde mein Lernjournal weiterhin fortführen, jedoch nicht mehr in "diesem" Bereich, da dieser nach der Abgabe für mich erledigt ist. Wenn Sie Lust und Interesse haben, was ich bis jetzt für mich selber dokumentiert habe, dann können Sie das unter [meiner Wiki](/de/wiki/programmierer) nachsehen. Ich habe neben dem ganzen Wissen, welches ich erlernt habe, jedoch auch gemerkt, wie mühsam es ist, Dokumentationen zu schreiben. Auch wenn es mir verhältnismässig leicht fällt, etwas zu dokumentieren, ist es trotzdem nicht sehr "spannend". Eine gewisse "Grund-Dokumentation" ist in meinen Augen jedoch notwendig. In eine solche "Grund-Dokumentation" würden genau die oben beschriebenen Themen fallen. Mehr ins Detail werde ich auch in Zukunft nicht gehen. 
 
 
 Wie ich mich selber kenne, bin ich am Anfang meistens sehr motiviert für Aufgaben, welche mir aufgetragen werden. Diese Motivation reduziert sich mit der Zeit jedoch immer mehr. Im Modul 431 - ePortfolio jedoch habe ich mir bis am Schluss Mühe gegeben, worauf ich auch stolz bin. Ich finde auch, dass man diese Bemühung, beim Lesen der Beiträge bemerkt. Meine Selbstsicherheit über das positive Erscheinen des ePortfolios kommt von der bereits investierten Mühe und der Motivation dieses, in leicht veränderter Art, weiterzuführen. Was für mich auch immer angenehm war, ist, dass ich meine Zeitplanung für das ePortfolio immer im Griff hatte. Ich hatte mich nie im Stress gefühlt, dieses weiterführen zu müssen (letzten Endes auch, weil wir sehr viel Zeit im Unterricht hatten und ich diese auch genutzt habe).

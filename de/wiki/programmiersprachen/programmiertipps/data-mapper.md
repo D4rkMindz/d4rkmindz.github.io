@@ -11,4 +11,4 @@ Man kann sagen, dass man mittels eines Data Mappers eine Zeile aus einer Tabelle
 Der Data Mapper Pattern kommt hauptsächlich bei Domain Driven Design (DDD) vor. Dabei wird dieser Pattern im Repository Pattern verwendet.
 
 
-Eine Implementation des Data Mapper Pattern in PHP ist das [Informative Präsentation](/http/**ocramius.github.io/doctrine-best-practices/#/1)). 
+Eine Implementation des Data Mapper Pattern in PHP ist das [Informative Präsentation](/de/http/**ocramius.github.io/doctrine-best-practices/#/1)). 

@@ -20,7 +20,7 @@ XML ist eine sehr geläufige Sprache. Ziemlich jede Technologie "versteht" XML. 
 XML ist eine Sprache, welche über einen DOM aufgebaut ist. Man kann diesen auch mittels [XPath](https://de.wikipedia.org/wiki/XPath) auslesen. Dazu kann man Queries schreiben um gewisse Elemente in einem DOM anzusprechen.
 
 
-In PHP kann man den XML DOM mittels XPath auslesen. Man erstellt ein DOM Dokument welches die zu parsende Datei entält. Danach wird dieses Element in ein DOM XPath Objekt eingegeben. Das [w3schools](/http/**www.w3schools.com/xml/xpath_syntax.asp) sehr gut aufgelistet.
+In PHP kann man den XML DOM mittels XPath auslesen. Man erstellt ein DOM Dokument welches die zu parsende Datei entält. Danach wird dieses Element in ein DOM XPath Objekt eingegeben. Das [w3schools](/de/http/**www.w3schools.com/xml/xpath_syntax.asp) sehr gut aufgelistet.
 
 
 Man kann der ''query()'' Methode ein Resultat eines Querys als Root Element mitgeben. Somit wird bei der Ausführung des Querys dann dieses Element als Root definiert.

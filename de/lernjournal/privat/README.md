@@ -1,2 +1,2 @@
 # Privat
-{{indexmenu>:lernjournal:privat#2|js#tango.png}}
+TODO: fix indexmenu>:lernjournal:privat#2|js#tango.png}}

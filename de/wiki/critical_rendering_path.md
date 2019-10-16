@@ -1,5 +1,5 @@
 # Critical Rendering Path
-Bevor eine Webseite im Browser angezeigt wird geschehen für den Nutzer nicht ersichtlich, mehrere Dinge. Das [HTML](/wiki/programmiersprachen/html) wird heruntergeladen und ein [DOM](/wiki/divers/dom) wird aufgebaut. Die verlinkten [CSS](/wiki/programmiersprachen/css)-Dateien werden heruntergeladen und geparst. Ebenfalls werden auch die [JavaScipt](/wiki/programmiersprachen/javascript)-Dateien heruntergeladen und ausgeführt.
+Bevor eine Webseite im Browser angezeigt wird geschehen für den Nutzer nicht ersichtlich, mehrere Dinge. Das [HTML](/de/wiki/programmiersprachen/html) wird heruntergeladen und ein [DOM](/de/wiki/divers/dom) wird aufgebaut. Die verlinkten [CSS](/de/wiki/programmiersprachen/css)-Dateien werden heruntergeladen und geparst. Ebenfalls werden auch die [JavaScipt](/de/wiki/programmiersprachen/javascript)-Dateien heruntergeladen und ausgeführt.
 
 
 Alle diese Schritte blockieren das Rendern (Anzeigen) der Webseite im Browser. Nachdem der DOM aufgebaut ist, wird ein CSSOM (CSS Object Model) aufgebaut. Auch dieses benötigt Zeit und blockiert.
@@ -8,7 +8,7 @@ Alle diese Schritte blockieren das Rendern (Anzeigen) der Webseite im Browser. N
 Nach dem DOM und dem CSSOM berechnet der Browser das Layout der Webseite und teilt diese in [CSS-Boxen](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model) ein. Nachdem die Berechnung des Layouts erfolgt ist werden die Farben auf der Seite berechnet und anschliessend angezeigt.
 
 
-![No alt text available](/wiki/crp.png)
+![No alt text available](/de/wiki/crp.png)
 ### Optimierungen
 Man hat verschiedene Möglichkeiten zur Optimierung des CRP. Man kann z. B. nur gewisse, benötigte Styles (Navbar, Main-Content) inline vor allen anderen Styles machen.
 

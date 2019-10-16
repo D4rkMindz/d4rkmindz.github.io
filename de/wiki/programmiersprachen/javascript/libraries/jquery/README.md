@@ -33,16 +33,16 @@ $(document).ready(function() { // Wird aufgerufen, wenn das Dokument geladen ist
 Nun sollte sich der Text von "Hallo" zu "Hallo Welt" geändert haben.
 
 
-Weitere Selektoren findet Ihr unter [JQuery Selektoren](/wiki/programmiersprachen/javascript/libraries/jquery/selectors).
+Weitere Selektoren findet Ihr unter [JQuery Selektoren](/de/wiki/programmiersprachen/javascript/libraries/jquery/selectors).
 
 
 
 
 
-jQuery ist die meistverwendete JavaScript-Bibliothek. Jede zweite Website und drei Viertel der 10.000 meistbesuchten Websites nutzen jQuery (Stand: Juli 2014). jQuery wird in vielen [Content-Management-Systemen](/wiki/cms) und Webframeworks bereits mitgeliefert, zum Beispiel in Joomla, WordPress, MediaWiki oder Drupal.
+jQuery ist die meistverwendete JavaScript-Bibliothek. Jede zweite Website und drei Viertel der 10.000 meistbesuchten Websites nutzen jQuery (Stand: Juli 2014). jQuery wird in vielen [Content-Management-Systemen](/de/wiki/cms) und Webframeworks bereits mitgeliefert, zum Beispiel in Joomla, WordPress, MediaWiki oder Drupal.
 **de.wikipedia.org/wiki/JQuery|Wikipedia]])//
 ### AJAX
-Asynchronous JavaScript XML, ist nicht eine Technologie an sich, es ist mehr ein Begriff, der 2005 von Jesse James Garrett geprägt wurde, welcher einen "neuen" Ansatz beschreibt, um eine Reihe von bestehenden Technologien zusammen zu verwenden. Unter diesen Technologien sind: HTML oder XHTML, Cascading Style Sheets, JavaScript, das [Dokumentobjektmodell](/wiki/divers/dom), XML, XSLT und vor allem das XMLHttpRequest-Objekt.
+Asynchronous JavaScript XML, ist nicht eine Technologie an sich, es ist mehr ein Begriff, der 2005 von Jesse James Garrett geprägt wurde, welcher einen "neuen" Ansatz beschreibt, um eine Reihe von bestehenden Technologien zusammen zu verwenden. Unter diesen Technologien sind: HTML oder XHTML, Cascading Style Sheets, JavaScript, das [Dokumentobjektmodell](/de/wiki/divers/dom), XML, XSLT und vor allem das XMLHttpRequest-Objekt.
 
 
 Wenn diese Technologien im Ajax-Modell kombiniert werden, können Web-Applikationen schnelle, inkrementelle Updates der Benutzeroberfläche vornehmen, ohne die gesamte Browser-Seite neu zu laden. Dies macht die Anwendung schneller und besser für Benutzeraktionen.

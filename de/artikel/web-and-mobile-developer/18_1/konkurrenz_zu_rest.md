@@ -1,5 +1,5 @@
 ## Konkurrenz zu REST
-[GraphQL](http://graphql.org/learn/) ist nicht wie viele denken eine Anfragesprache für eine Datenbank. Ebenso wenig handelt es sich um ein [ORM](/wiki/programmiersprachen/programmiertipps/orm). Es handelt sich vielmehr um eine neue Möglichkeit Webservice-APIs zu realisieren. Somit steht GraphQL in direkter Konkurrenz zu [REST](/wiki/divers/api/rest).
+[GraphQL](http://graphql.org/learn/) ist nicht wie viele denken eine Anfragesprache für eine Datenbank. Ebenso wenig handelt es sich um ein [ORM](/de/wiki/programmiersprachen/programmiertipps/orm). Es handelt sich vielmehr um eine neue Möglichkeit Webservice-APIs zu realisieren. Somit steht GraphQL in direkter Konkurrenz zu [REST](/de/wiki/divers/api/rest).
 
 
 Bei REST ist jedoch das Problem, dass man teilweise mehrere Datensätze gleichzeitig abrufen muss. Dies führt zu unnötigen Zusatzdaten und enormen Netzwerktraffic sowie einer hohen Serverauslastung.
@@ -112,7 +112,7 @@ Eine Abfrage kann man mit diversen Parametern beschränken. Folgende Anfragen ka
 }
 ```
 ### Mutationen
-Im Gegensatz zu Queryoperationen sind Muationsoperationen nicht auf das Lesen von Daten beschränkt. Wenn man einen Vergleich zu REST ziehen würde, dann würde die Queryoperation einem [GET](/wiki/divers/http-request#get-request) und die Mutationsoperation einem [POST](/wiki/divers/http-request#post-request)/[PUT](/wiki/divers/http-request#put-request) oder sogar [DELETE](/wiki/divers/http-request#delete-request) entsprechen. Da sich die Syntax bei der Anfrage auf eine Mutation klar von einer Queryoperation unterscheidet weiss der Server die entsprechende Operation zuzuweisen.
+Im Gegensatz zu Queryoperationen sind Muationsoperationen nicht auf das Lesen von Daten beschränkt. Wenn man einen Vergleich zu REST ziehen würde, dann würde die Queryoperation einem [GET](/de/wiki/divers/http-request#get-request) und die Mutationsoperation einem [POST](/de/wiki/divers/http-request#post-request)/[PUT](/de/wiki/divers/http-request#put-request) oder sogar [DELETE](/de/wiki/divers/http-request#delete-request) entsprechen. Da sich die Syntax bei der Anfrage auf eine Mutation klar von einer Queryoperation unterscheidet weiss der Server die entsprechende Operation zuzuweisen.
 
 
 Trotz der hohen Ähnlichkeit der Syntax zu Methodensignaturen ist diese jedoch keineswegs eine. Das GraphQL-Typensystem behandelt eine Mutation als Feld mit Feldparametern.

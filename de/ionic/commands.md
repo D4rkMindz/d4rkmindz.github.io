@@ -1,5 +1,5 @@
 ## Run Commands
-In der IDE kann man mehrere Commands definieren. Der Debug-Run-Command ist im Artikel [WebStorm Debugging](/ionic/webstorm-debugging) vermerkt.
+In der IDE kann man mehrere Commands definieren. Der Debug-Run-Command ist im Artikel [WebStorm Debugging](/de/ionic/webstorm-debugging) vermerkt.
 
 
 Es empfiehlt sich neben dem debug command noch folgende commands hinzuzufügen.

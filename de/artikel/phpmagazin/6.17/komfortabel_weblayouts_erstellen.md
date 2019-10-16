@@ -5,7 +5,7 @@ Weblayouts werden auch 2017 teilweise noch mit float umgesetzt. Manchmal kommt a
 
 
  
-Einen weiteren Artikel zum Thema Gridlayout gibt es im [c'T Webdesign](/artikel/ct-webdesign/2017/layout-grids-mit-css)
+Einen weiteren Artikel zum Thema Gridlayout gibt es im [c'T Webdesign](/de/artikel/ct-webdesign/2017/layout-grids-mit-css)
 
 
 

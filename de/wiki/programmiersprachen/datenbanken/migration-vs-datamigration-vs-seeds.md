@@ -1,6 +1,6 @@
 # Migration vs. Data-Migration vs. Seeds
 
-Die Migration von Datenbanken ist ein komplizierter Vorgang. Wenn man ein Feld in einer bestehenden Tabelle hinzufügt und dies nicht NULL enthalten darf, wird es Konflikte bei der Migration geben. Ebenfalls wird es schwierig, wenn man [Foreign Keys](/wiki/programmiersprachen/datenbanken/relational/key_concept/foreign_key) verwendet. Diese erfordern immer, dass ein Wert, welcher eingetragen wird, bei dem referenzierenden Tabellenfeld auch wirklich existiert.
+Die Migration von Datenbanken ist ein komplizierter Vorgang. Wenn man ein Feld in einer bestehenden Tabelle hinzufügt und dies nicht NULL enthalten darf, wird es Konflikte bei der Migration geben. Ebenfalls wird es schwierig, wenn man [Foreign Keys](/de/wiki/programmiersprachen/datenbanken/relational/key_concept/foreign_key) verwendet. Diese erfordern immer, dass ein Wert, welcher eingetragen wird, bei dem referenzierenden Tabellenfeld auch wirklich existiert.
 
 
 

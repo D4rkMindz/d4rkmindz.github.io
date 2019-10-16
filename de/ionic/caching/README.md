@@ -118,7 +118,7 @@ export class MyApp {
   }
 ```
 ### Anwendung
-Um die Daten eines Requests zu speichern, sollte man dies direkt im [HttpProvider](/ionic/http-requests#http_provider) machen. Ein Beispiel, wie diese Datei danach aussehen kann:
+Um die Daten eines Requests zu speichern, sollte man dies direkt im [HttpProvider](/de/ionic/http-requests#http_provider) machen. Ein Beispiel, wie diese Datei danach aussehen kann:
 
 
 ```javascript

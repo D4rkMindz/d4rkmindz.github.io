@@ -2,7 +2,7 @@
 Ein [Hierarchisches Datenbankmodell](https://de.wikipedia.org/wiki/Hierarchisches_Datenbankmodell) ist das älteste Datenbankmodell; es bildet die reale Welt durch eine hierarchische Baumstruktur ab. Jeder Satz (Record) hat also genau einen Vorgänger, mit Ausnahme genau eines Satzes, nämlich der Wurzel der so entstehenden Baumstruktur.
 
 
-![No alt text available](/wiki/programmiersprachen/datenbanken/240px-hierarchisches_datenbankmodell.svg.png)
+![No alt text available](/de/wiki/programmiersprachen/datenbanken/240px-hierarchisches_datenbankmodell.svg.png)
 
 
 Die Daten werden in einer Reihe von Datensätzen gespeichert, mit denen verschiedene Felder verknüpft sind. Die Instanzen eines bestimmten Datensatzes werden als Datensatzabbild zusammengefasst. Diese Datensatzabbilder sind vergleichbar mit den Tabellen einer relationalen Datenbank.

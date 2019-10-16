@@ -5,7 +5,7 @@ Eine Session (Sitzung) bezeichnet eine stehende Verbindung eines Clients mit ein
 
 
 
-Bei zustandslosen Protokollen wie HTTP gibt es keine stehenden Verbindungen. Jede Kommunikation eines Clients ([Browser](/wiki/browser)) zu einem Webserver wird unabhängig voneinander betrachtet. Zudem können Benutzer nicht eindeutig identifiziert werden.
+Bei zustandslosen Protokollen wie HTTP gibt es keine stehenden Verbindungen. Jede Kommunikation eines Clients ([Browser](/de/wiki/browser)) zu einem Webserver wird unabhängig voneinander betrachtet. Zudem können Benutzer nicht eindeutig identifiziert werden.
 
 
 
@@ -46,7 +46,7 @@ Wenn der User sich ausloggt, ist es wichtig, dass man auch alle Werte löscht, w
 ''[session_destroy();](http://php.net/manual/de/function.session-destroy.php)''
 
 
-Damit löscht man alle, in einer Session gespeichterten Daten. Es ist jedoch auch empfehlenswert, wenn man jedesmal, wenn man ausgeloggt auf die Login Seite kommt (also immer), dass man dann der Session eine neue ID gibt (also eigentlich dem [Cookie](/wiki/cookies)). Sonst kann man wie unten beschrieben, Session hijacking machen. Eine neue ID vergibt man mit folgender Funktion:
+Damit löscht man alle, in einer Session gespeichterten Daten. Es ist jedoch auch empfehlenswert, wenn man jedesmal, wenn man ausgeloggt auf die Login Seite kommt (also immer), dass man dann der Session eine neue ID gibt (also eigentlich dem [Cookie](/de/wiki/cookies)). Sonst kann man wie unten beschrieben, Session hijacking machen. Eine neue ID vergibt man mit folgender Funktion:
 
 
 ''[session_regenerate_id();](http://php.net/manual/de/function.session-regenerate-id.php)''
@@ -55,15 +55,15 @@ Damit löscht man alle, in einer Session gespeichterten Daten. Es ist jedoch auc
 Bei ''session_regenerate_id();'' wird lediglich dem Cookie eine neue ID mitgegeben, jedoch nicht die Daten in der $_SESSION variable gelöscht.
 
 
-Um Nachrichten über die Session zu übermitteln, kann man im [Symfony Framework](https://symfony.com/) die [Flash Messages](/wiki/programmiersprachen/php/session/flashmessages) brauchen.
+Um Nachrichten über die Session zu übermitteln, kann man im [Symfony Framework](https://symfony.com/) die [Flash Messages](/de/wiki/programmiersprachen/php/session/flashmessages) brauchen.
 ### Hacking
 Sessions sind aber nicht nur nützlich, sondern auch ein beliebtes Ziel von Anfreifern. Es gibt verschiedene Angriffsmethoden. Folgende Möglichkeiten hat man:
 
  
-  * [Cross Site Scripting (XSS)](/wiki/hacking/xss)  
+  * [Cross Site Scripting (XSS)](/de/wiki/hacking/xss)  
   * Session hijacking (Sitzungskaperung)
 
 
 
-Beim Session hijacking liest der Hacker das [Cookie](/wiki/cookies) aus und verwendet es selber um sich damit als der User einzuloggen, welcher gehackt wurde.
+Beim Session hijacking liest der Hacker das [Cookie](/de/wiki/cookies) aus und verwendet es selber um sich damit als der User einzuloggen, welcher gehackt wurde.
 

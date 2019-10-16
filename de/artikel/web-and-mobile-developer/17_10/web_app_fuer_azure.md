@@ -5,7 +5,7 @@
   * Web-Apps: Hosting für Websites und Webapplikationen
   * Mobile-Apps: Das Backend für mobile Apps
   * Logic-Apps: Automatisierung von Geschäftsprozessen und Integration von Systemen und Daten in der Cloud ohne Code zu schreiben
-  * API-Apps: Hosten von [RESTful](/wiki/divers/api/rest) APIs
+  * API-Apps: Hosten von [RESTful](/de/wiki/divers/api/rest) APIs
 
 Azure Hostings verstehen dabei die Sprachen ASP.NET, NET.Core Node.js PHP oder Python. Auch Scripts wie PowerShell sind unterstützt.
 

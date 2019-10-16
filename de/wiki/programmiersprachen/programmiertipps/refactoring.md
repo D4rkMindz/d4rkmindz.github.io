@@ -9,5 +9,5 @@ Refactoring wird hauptsächlich auf unschöne Stellen im Code angewandt. Dabei w
   * Übersichtlichkeit
   * Verständlichkeit
   * Erweiterbarkeit
-  * Vermeidung von [Redundanz](/wiki/programmiersprachen/programmiertipps#dry_-_don_t_repeat_yourself)
+  * Vermeidung von [Redundanz](/de/wiki/programmiersprachen/programmiertipps#dry_-_don_t_repeat_yourself)
   * Testbarkeit

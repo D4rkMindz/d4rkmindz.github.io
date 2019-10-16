@@ -2,7 +2,7 @@
 [Java](https://java.com/de/download/) installieren
 
 
-[ANT](/http/**ant/binaries/apache-ant-1.9.7-bin.zip) File herunterladen
+[ANT](/de/http/**ant/binaries/apache-ant-1.9.7-bin.zip) File herunterladen
 
 
 Das File in einen Beliebigen Ordner verschieben

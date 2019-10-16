@@ -1,5 +1,5 @@
 ## Mehr Sichereit mit Köpfchen
-Der Header ist ein Teil eines [HTTP-Requestes](/wiki/divers/http-request). Durch einen Header kann man gewisse Aktionen autorisieren oder verbieten. Es gibt viele, verschieden Optionen. Ein paar davon sind sogar noch sehr experimentell. Um eine sichere Verwendung zu garantieren empfiehlt sich die Benutzung der Webseite [CanIUse.com](http://www.caniuse.com)
+Der Header ist ein Teil eines [HTTP-Requestes](/de/wiki/divers/http-request). Durch einen Header kann man gewisse Aktionen autorisieren oder verbieten. Es gibt viele, verschieden Optionen. Ein paar davon sind sogar noch sehr experimentell. Um eine sichere Verwendung zu garantieren empfiehlt sich die Benutzung der Webseite [CanIUse.com](http://www.caniuse.com)
 
 
 
@@ -37,7 +37,7 @@ Dieser Header hat lediglich eine Option: nosniff. Browser probieren oft den Inha
 
 
 #### X-XssProtection
-Um [XSS](/wiki/hacking/xss)-Attacken zu verhindern hat der Browser einen eigenen Filter. Dieser vergleicht die Anfrage- und Antwortdaten. Wenn diese nicht übereinstimmen, reagiert der Browser dem entsprechend. Man kann den X-XssProtection Filter deaktivieren, indem man den Wert auf 0 setzt. Wenn der Wert 1 entspricht, ist der Filter aktiv. Ausserdem verfügt der Filter über weitere Parameter zur Konfiguration des Umganges einer XSS-Attacke:
+Um [XSS](/de/wiki/hacking/xss)-Attacken zu verhindern hat der Browser einen eigenen Filter. Dieser vergleicht die Anfrage- und Antwortdaten. Wenn diese nicht übereinstimmen, reagiert der Browser dem entsprechend. Man kann den X-XssProtection Filter deaktivieren, indem man den Wert auf 0 setzt. Wenn der Wert 1 entspricht, ist der Filter aktiv. Ausserdem verfügt der Filter über weitere Parameter zur Konfiguration des Umganges einer XSS-Attacke:
 
 
 ```
@@ -56,7 +56,7 @@ X-XSS-Protection: 1; report=<URL>
 
 
 #### Content Security Policy (CSP)
-Die CSP ist ebenfalls ein Header, welcher der Verhinderung von XSS dient. Einen recht ausführlichen Artikel über das Thema CSP findet man [hier](/artikel/web-and-mobile-developer/6_17/content_security_policy)
+Die CSP ist ebenfalls ein Header, welcher der Verhinderung von XSS dient. Einen recht ausführlichen Artikel über das Thema CSP findet man [hier](/de/artikel/web-and-mobile-developer/6_17/content_security_policy)
 
 
 
@@ -101,7 +101,7 @@ Content-Securtiy-Policy: require-sri-for script style;
 
 
 #### HTTP Strict Transport Security (HSTS)
-Wenn eine Webseite über HTTPS ([SSL](/wiki/divers/ss)/TLS) erreichbar ist, ist sie Fallbackmässig immer per HTTP auch erreichbar. So könnte ein Hacker eine Downgrade-Attacke durchführen und alle Daten, welche über die Verbindung übertragen werden, auslesen. HSTS löst dieses Problem, da im Header definiert wird, wenn jemals eine sichere Verbindung hat aufgebaut werden konnte, dann wird diese immer upgegradet (beim Aufbau einer Verbingung über HTTP). Ein  HSTS-Header, welcher ein automatisches Upgrade für den Zeitraum von 604800 Sekunden definiert, sieht wie folgt aus.
+Wenn eine Webseite über HTTPS ([SSL](/de/wiki/divers/ss)/TLS) erreichbar ist, ist sie Fallbackmässig immer per HTTP auch erreichbar. So könnte ein Hacker eine Downgrade-Attacke durchführen und alle Daten, welche über die Verbindung übertragen werden, auslesen. HSTS löst dieses Problem, da im Header definiert wird, wenn jemals eine sichere Verbindung hat aufgebaut werden konnte, dann wird diese immer upgegradet (beim Aufbau einer Verbingung über HTTP). Ein  HSTS-Header, welcher ein automatisches Upgrade für den Zeitraum von 604800 Sekunden definiert, sieht wie folgt aus.
 
 
 ```
@@ -111,7 +111,7 @@ Strict-Transport-Security: max-age=604800;
 
 
 #### Cross-Site Request Forgery (CSRF)
-CSRF ist das senden eines Requests, welcher nur ausgeführt wird, wenn ein Benutzer eingeloggt ist (bsp. bin ich eingeloggt bei Facebook und der Hacker schickt einen Request, um eine dubiose Seite zu liken). Einen recht ausführlichen Artikel über das Thema CSP findet man [hier](/wiki/hacking/xsrf).
+CSRF ist das senden eines Requests, welcher nur ausgeführt wird, wenn ein Benutzer eingeloggt ist (bsp. bin ich eingeloggt bei Facebook und der Hacker schickt einen Request, um eine dubiose Seite zu liken). Einen recht ausführlichen Artikel über das Thema CSP findet man [hier](/de/wiki/hacking/xsrf).
 
 
 

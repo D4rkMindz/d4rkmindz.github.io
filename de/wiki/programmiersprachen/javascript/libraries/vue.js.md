@@ -1,5 +1,5 @@
 # VueJS
-[VueJS](https://vuejs.org) ist ein [JavaScript](/wiki/programmiersprachen/javascript) [Framework](/wiki/programmiersprachen/framework) welches sehr flexibel ist. Man kann eine ganze Front-End Applikation inkl. Routing und vielem mehr erstellen. Jedoch kann man bestehende Applikationen auch mit VueJS um gewisse Elemente erweitern. Man kann beispielsweise nur den Login mit VueJS umsetzen, den Rest der Applikation muss man aber nicht umschreiben.
+[VueJS](https://vuejs.org) ist ein [JavaScript](/de/wiki/programmiersprachen/javascript) [Framework](/de/wiki/programmiersprachen/framework) welches sehr flexibel ist. Man kann eine ganze Front-End Applikation inkl. Routing und vielem mehr erstellen. Jedoch kann man bestehende Applikationen auch mit VueJS um gewisse Elemente erweitern. Man kann beispielsweise nur den Login mit VueJS umsetzen, den Rest der Applikation muss man aber nicht umschreiben.
 
 
 
@@ -12,7 +12,7 @@ Es gab die Aufgabe, eine TODO Liste zu erstellen. Dabei soll man diese Anzeigen 
 Ebenfalls muss man TODOs neu erstellen können. Falls diese dann falsch geschrieben hat, kann man diese mittels doppelklick editieren. Mit Enter bestätigt man jeweils die gewünschte Aktion.
 
 
-![No alt text available](/wiki/programmiersprachen/javascript/libraries/vue.js.animation.full.todo.gif)
+![No alt text available](/de/wiki/programmiersprachen/javascript/libraries/vue.js.animation.full.todo.gif)
 
 
 

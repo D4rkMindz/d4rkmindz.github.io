@@ -6,10 +6,10 @@ Die JavaScript Object Notation, kurz JSON, ist ein kompaktes Datenformat in eine
 
 
 ### JSON in JavaScript
-In JavaScript kann man mittels [AJAX](/wiki/programmiersprachen/javascript/libraries/jquery#ajax) einen Request an den Server übermitteln. Um Daten in diesem Request zu übermitteln braucht man JSON. Einen JSON-String bekommt man in JavaScript mittels der "JSON.stringify(jsonString)" Funktion.
+In JavaScript kann man mittels [AJAX](/de/wiki/programmiersprachen/javascript/libraries/jquery#ajax) einen Request an den Server übermitteln. Um Daten in diesem Request zu übermitteln braucht man JSON. Einen JSON-String bekommt man in JavaScript mittels der "JSON.stringify(jsonString)" Funktion.
 
 
-In JavaScript ([jQuery](/wiki/programmiersprachen/javascript/libraries/jquery)) sieht der Code dazu wie folgt aus:
+In JavaScript ([jQuery](/de/wiki/programmiersprachen/javascript/libraries/jquery)) sieht der Code dazu wie folgt aus:
 
 
 ```js
@@ -25,7 +25,7 @@ $.ajax({
         })
 ```
 ### JSON in PHP
-JSON-Parser existieren in praktisch allen verbreiteten Sprachen. In PHP kann man ein JSON-String mit der [json_encode()](/http/**php.net/manual/de/function.json-encode.php) Funktion, welche ein Array in einen JSON-String umwandelt.
+JSON-Parser existieren in praktisch allen verbreiteten Sprachen. In PHP kann man ein JSON-String mit der [json_encode()](/de/http/**php.net/manual/de/function.json-encode.php) Funktion, welche ein Array in einen JSON-String umwandelt.
 
 
 Ein Beispiel für ein JSON String:

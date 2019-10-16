@@ -2,7 +2,7 @@
 Im Jahr 2015 wurde von Google der Begriff Progressive Web App geprägt. Eine PWA ist eine Applikation, welche installierbar und offline nutzbar ist, Push-Benachrichtigungen empfangen kann und ohne nativen Container auskommt.
 
 
-PWAs sind eigentlich Webapplikationen, welche offline nutzbar sind. Sie sind in [HTML5](/wiki/programmiersprachen/html), [CSS3](/wiki/programmiersprachen/css) und [JavaScript](/wiki/programmiersprachen/javascript) geschrieben und können nur über [HTTPS](/wiki/divers/protokolle/http) erreicht werden. Jedoch können PWAs auch auf Resourcen eines Gerätes wie z. B. die Kamera zugreifen.
+PWAs sind eigentlich Webapplikationen, welche offline nutzbar sind. Sie sind in [HTML5](/de/wiki/programmiersprachen/html), [CSS3](/de/wiki/programmiersprachen/css) und [JavaScript](/de/wiki/programmiersprachen/javascript) geschrieben und können nur über [HTTPS](/de/wiki/divers/protokolle/http) erreicht werden. Jedoch können PWAs auch auf Resourcen eines Gerätes wie z. B. die Kamera zugreifen.
 
 
 Damit man beim durchlaufen einer PWA das Gefühl hat, sich in einer nativen App zu bewegen, setzt man auf SPAs (Single Page Application), welche nur den Inhalt ersetzen und nicht wie im Web die ganze Seite neu laden.
@@ -47,4 +47,4 @@ Wenn man überprüfen möchte, ob eine PWA dem Ursprungsgedanken von Google nahe
 Ich habe viel neues über PWAs und vorallem Service-Worker kennen gelernt. Auch wurden die Möglichkeiten eines Service-Workers klar und gut ersichtlich dargestellt.
 
 
-[Weiterer Artikel](/artikel/phpmagazin/6.17/offline_was_nun) 
+[Weiterer Artikel](/de/artikel/phpmagazin/6.17/offline_was_nun) 

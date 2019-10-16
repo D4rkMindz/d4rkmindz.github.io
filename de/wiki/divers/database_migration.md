@@ -1,5 +1,5 @@
 ## Datenbank Migration
-Wenn man eine Webapplikation entwickelt oder betreut, kommt es hin und wieder vor, dass man seine Datenbank ändert. Man kann dabei viel Zeit (und Geld) sparen, indem man ein Datenbank Migrations Libraries braucht. Ein Beispiel dafür wäre [Phinx](https://phinx.org/). Diese Library kann man mittels [Composer](/installationen/composer) ganz einfach über folgende Zeile im Terminal in seinem Projekt installieren:
+Wenn man eine Webapplikation entwickelt oder betreut, kommt es hin und wieder vor, dass man seine Datenbank ändert. Man kann dabei viel Zeit (und Geld) sparen, indem man ein Datenbank Migrations Libraries braucht. Ein Beispiel dafür wäre [Phinx](https://phinx.org/). Diese Library kann man mittels [Composer](/de/installationen/composer) ganz einfach über folgende Zeile im Terminal in seinem Projekt installieren:
 
 
 ```
@@ -105,7 +105,7 @@ In dieser Klasse kann man in der change() Funktion die Datenbank definieren. Die
 
 
 ### Code generieren
-Man viel Zeit einsparen kann, indem man sich den Code für die change() Funktion generieren lässt. Dies ist mit der Library von [Odan](https://github.com/odan/phinx-migrations-generator) möglich. Man installiert diese ebenfalls mit [Composer](/installationen/composer) im Root Ordner des Projektes.
+Man viel Zeit einsparen kann, indem man sich den Code für die change() Funktion generieren lässt. Dies ist mit der Library von [Odan](https://github.com/odan/phinx-migrations-generator) möglich. Man installiert diese ebenfalls mit [Composer](/de/installationen/composer) im Root Ordner des Projektes.
 ```
 composer require odan/phinx-migrations-generator
 ```
@@ -118,7 +118,7 @@ call vendor/bin/phinx-migrations.bat generate DatabaseNameSetup
 Danach wird man zuerst gefragt, welchen Name man vergeben möchte. Dabei verwendet man DatabaseNameSetup. Genau wie im Abschnitt Setup beschrieben. Die zweite Abfrage ist, ob man das schema.php File ändern möchte. Da antwortet man mit Yes (y). Jetzt findet man in dem Ordner, welchen man in der phinx.php definiert hat (_DIR_ . "/../resources/migration") die gleiche PHP-Klasse, wie im Abschnitt Setup beschrieben. Diesmal ist sie jedoch bereits unter change() befüllt.
 
 
-Jetzt muss man nur noch alles auf den Server laden (und die Zugangsdaten für die Datenbank ändern (Benutzername und Passwort)) und via [SSH](/wiki/divers/ssh) in den config/ Ordner navigieren. Dort führt man dann folgenden Behfehl aus (Linux Umgebung, da die meisten Server unter Linux laufen).
+Jetzt muss man nur noch alles auf den Server laden (und die Zugangsdaten für die Datenbank ändern (Benutzername und Passwort)) und via [SSH](/de/wiki/divers/ssh) in den config/ Ordner navigieren. Dort führt man dann folgenden Behfehl aus (Linux Umgebung, da die meisten Server unter Linux laufen).
 ```
 ../vendor/bin/phinx migrate
 (Windows:)
@@ -131,7 +131,7 @@ Jetzt ist das Setup der Datenbank abgeschlossen. In der Datenbank befindet sich 
 
 
 ### Migration
-Bei einer Migration wird alles genau gleich gemacht wie unter [Code generieren](/wiki/divers/database_migration#code_generieren) beschrieben. Jedoch muss man DatabaseNameSetup umbennen. Am besten ist es, wenn man die Änderungen, welche man vorgenommen hat, beschreibt. (z. B.: "RemovedTableUsers").
+Bei einer Migration wird alles genau gleich gemacht wie unter [Code generieren](/de/wiki/divers/database_migration#code_generieren) beschrieben. Jedoch muss man DatabaseNameSetup umbennen. Am besten ist es, wenn man die Änderungen, welche man vorgenommen hat, beschreibt. (z. B.: "RemovedTableUsers").
 
 
 

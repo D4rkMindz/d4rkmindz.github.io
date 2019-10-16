@@ -32,7 +32,7 @@
 
 
 
-![No alt text available](/wiki/programmiersprachen/php/imageedit_2_6890240769.png)
+![No alt text available](/de/wiki/programmiersprachen/php/imageedit_2_6890240769.png)
 
 
 
@@ -110,7 +110,7 @@
 Konkrete Reihenfolge:
 
 
-[Browser](/wiki/browser) -> URL Routing -> [Controller](/wiki/programmiersprachen/php/mvc#controller) -> [Model](/wiki/programmiersprachen/php/mvc#model) -> [Controller](/wiki/programmiersprachen/php/mvc#controller) -> [View](/wiki/programmiersprachen/php/mvc#view) -> [Controller](/wiki/programmiersprachen/php/mvc#controller) -> URL Routing -> [Browser](/wiki/browser)
+[Browser](/de/wiki/browser) -> URL Routing -> [Controller](/de/wiki/programmiersprachen/php/mvc#controller) -> [Model](/de/wiki/programmiersprachen/php/mvc#model) -> [Controller](/de/wiki/programmiersprachen/php/mvc#controller) -> [View](/de/wiki/programmiersprachen/php/mvc#view) -> [Controller](/de/wiki/programmiersprachen/php/mvc#controller) -> URL Routing -> [Browser](/de/wiki/browser)
 
 
 
@@ -146,10 +146,10 @@ Ein View Template ist ein HTML File, in welches die Daten eingefügt werden (ren
 Die grünen Felder symbolisieren, was wo passiert. Die gelben sollte man meiden und die Roten sind bad practice.
 
 
-Erklärung [CRUD](/wiki/programmiersprachen/php/crud)
+Erklärung [CRUD](/de/wiki/programmiersprachen/php/crud)
 
 
-![No alt text available](/wiki/programmiersprachen/php/imageedit_9_3196086581.png )
+![No alt text available](/de/wiki/programmiersprachen/php/imageedit_9_3196086581.png )
 
 ----
 
@@ -157,4 +157,4 @@ Erklärung [CRUD](/wiki/programmiersprachen/php/crud)
 In der Darstellung unterhalb sieht man, innerhalb welcher Zeit welcher Aufruf passiert.
 
 
-![No alt text available](/wiki/programmiersprachen/php/imageedit_7_4421517577.png )
+![No alt text available](/de/wiki/programmiersprachen/php/imageedit_7_4421517577.png )

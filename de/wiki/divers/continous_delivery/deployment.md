@@ -1,5 +1,5 @@
 ## Deployment
-Ein automatisches deployment lässt sich am einfachsten erreichen, wenn man [build.xml file](/http/**github.com/D4rkMindz/contact_form/blob/master/build.xml). Im der "name", welchen man im directory Tag definiert, wird gebraucht um über ANT das Script auszuführen. Wenn man also ein build.xml file hat, welches wie folgt aussieht, braucht man den unten dargestellten Aufruf.
+Ein automatisches deployment lässt sich am einfachsten erreichen, wenn man [build.xml file](/de/http/**github.com/D4rkMindz/contact_form/blob/master/build.xml). Im der "name", welchen man im directory Tag definiert, wird gebraucht um über ANT das Script auszuführen. Wenn man also ein build.xml file hat, welches wie folgt aussieht, braucht man den unten dargestellten Aufruf.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="webapp" default="noop">
@@ -150,5 +150,5 @@ Das ist alles, was in dem ANT-Script passiert. Jedoch wird in der deploy.php all
   - release/ in htdocs/ umbennen
   - Das ZIP-File in ein backup/ Ordner verschieben
   - Angemessene Berechtigungen vergeben (könnte sonst Probleme mit der Webseite geben).
-  - Anschliessend die Datenbank [Migration](/wiki/divers/database_migration) ausführen (mit Phinx)
+  - Anschliessend die Datenbank [Migration](/de/wiki/divers/database_migration) ausführen (mit Phinx)
   - Das clean-up PHP-Script starten, welches alte und unnötige Dateien löscht, respektive in entsprechende Ordner aufräumt.

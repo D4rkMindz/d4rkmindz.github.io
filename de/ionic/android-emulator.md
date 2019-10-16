@@ -5,7 +5,7 @@ Einen Android Emulator lässt sich sehr einfach mit Android Studio aufsetzen. Da
 Danach den AVD Manager Starten
 
 
-![No alt text available](/ionic/2017-09-14-android-emulator-start.png )
+![No alt text available](/de/ionic/2017-09-14-android-emulator-start.png )
 Dort dann "Create Virtual Device" auswählen und das gewünschte Gerät auswählen. Anschliessend noch die gewünschte Version auswählen und auf "next" klicken.
 
 

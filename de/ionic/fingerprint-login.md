@@ -1,5 +1,5 @@
 =### Fingerprint Login
-Einen Fingerprint Login kann man mit der [FingerprintAuth (Android)](/http/**ionicframework.com/docs/native/android-fingerprint-auth/) Extension für Android machen.
+Einen Fingerprint Login kann man mit der [FingerprintAuth (Android)](/de/http/**ionicframework.com/docs/native/android-fingerprint-auth/) Extension für Android machen.
 
 
 Da jedoch nicht jedes Android/iOS Gerät über einen Fingerprint Scanner oder TouchID verfügt, muss man zuerst Plattformabhängig testen, ob eine Authentifizierung über diesen Weg überhaupt möglich ist. Dies macht man mit dem bereits vorhandenen Provider "Platform".

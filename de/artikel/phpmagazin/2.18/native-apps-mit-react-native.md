@@ -88,7 +88,7 @@ async getTodos() {
 }
 ```
 ### Navigation
-Es gibt mehrere React Native Navigator. Die [React Navigation](https://reactnavigation.org), [React Native Naviagation (Wix)](/http/**github/wix/react-native-navigation) sind die bekanntesten Navigationen. In dem Beispiel unterhalb wird React Navigation verwendet.
+Es gibt mehrere React Native Navigator. Die [React Navigation](https://reactnavigation.org), [React Native Naviagation (Wix)](/de/http/**github/wix/react-native-navigation) sind die bekanntesten Navigationen. In dem Beispiel unterhalb wird React Navigation verwendet.
 
 
 ```javascript

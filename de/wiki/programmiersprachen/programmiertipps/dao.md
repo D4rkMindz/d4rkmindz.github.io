@@ -4,6 +4,6 @@ Das [DAO](https://de.wikipedia.org/wiki/Data_Access_Object) ist ein [Design Patt
 
 ### Eigenschaften
 Wikipedia definiert die Eigenschaften eines DAOs wie folgt:
-  * "**" => Ein DAO retourniert die Daten als Array und nicht als bsp. [UserEntity](/wiki/programmiersprachen/php/dto)
+  * "**" => Ein DAO retourniert die Daten als Array und nicht als bsp. [UserEntity](/de/wiki/programmiersprachen/php/dto)
   * "**" => Ein DAO pro Speichermedium (SQLDao, FileSystemDAO, etc...)
   * "**" => Der Austausch der Datenbanktechnologie (SQL => NoSQL) muss mit möglichst geringen Aufwand zu bewältigen sein.

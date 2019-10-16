@@ -23,6 +23,6 @@ Wie genau die Lokalisierung (l10n[10 Buchstaben zwischen l und n, "localization"
 
 Internationaliserung hat genau wie Lokalisierung (l10n) [Numeronym](https://de.wikipedia.org/wiki/Numeronym). Dieses Numeronym ist i18n (18 Buchstaben zwischen i und n). Bei der Internationalisierung oder auch Globalisierung geht es darum, seinen Code möglichst allgemein zu erstellen. Dies würde bedeuten:
   - Gebrauch von [UNICODE](https://unicode-table.com/de/), oder der korrekte gebrauch von alten Zeichenketten (z. B. ASCII) welche die Programmierung und Lokalisierung der App nicht einschränken
-  - Funktionen unterstützen, welche nicht vor dem Einsatz der Lokalisierung verwendet werden dürfen (Bsp.: [CSS](/wiki/programmiersprachen/css) für vertikalen Text, oder das Hinzufügen von [Document Type Definition](https://de.wikipedia.org/wiki/Dokumenttypdefinition)).
+  - Funktionen unterstützen, welche nicht vor dem Einsatz der Lokalisierung verwendet werden dürfen (Bsp.: [CSS](/de/wiki/programmiersprachen/css) für vertikalen Text, oder das Hinzufügen von [Document Type Definition](https://de.wikipedia.org/wiki/Dokumenttypdefinition)).
   - Code so gestalten, dass er alles, was in der Lokalisierung erwähnt ist, unterstütz.
   - Lokalisierbare Inhalte aus dem Quellcode trennen. Zum Beispiel einen Text aus einer .txt Datei laden.

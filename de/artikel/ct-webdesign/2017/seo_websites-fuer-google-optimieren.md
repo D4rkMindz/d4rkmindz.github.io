@@ -28,7 +28,7 @@ Im Bezug auf SEO und Google gibt es viele verschiedene Webseiten. Ein paar davon
   * [12 Häufige Fehler bei der Nutzung von Google Analytics](https://de.ryte.com/magazine/12-haeufige-fehler-bei-der-nutzung-von-google-analytics) (Artikel)
   * [c'T Links](https://www.heise.de/ct/special/17/02/links/100.shtml)
 
-Wichtig bei SEO für Google sind vor allem die Themen, welche [hier](/artikel/ct-webdesign/2017/seo_googles-seo-regeln) aufgelistet sind. Zusätzlich sollte man noch beachten, dass man wenn möglich eine Niesche ausnutzt und nicht probiert auf einen Markt zu kommen, welcher eh bereits schon besetzt ist (bsp. AMAZON).
+Wichtig bei SEO für Google sind vor allem die Themen, welche [hier](/de/artikel/ct-webdesign/2017/seo_googles-seo-regeln) aufgelistet sind. Zusätzlich sollte man noch beachten, dass man wenn möglich eine Niesche ausnutzt und nicht probiert auf einen Markt zu kommen, welcher eh bereits schon besetzt ist (bsp. AMAZON).
 
 
 Ein ganz wichtiges Prinzip bei SEO ist AIDA.

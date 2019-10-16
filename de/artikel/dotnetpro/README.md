@@ -1,2 +1,2 @@
 =## .NET Pro
-{{indexmenu>:artikel:dotnetpro#1|js#tango.png}}
+TODO: fix indexmenu>:artikel:dotnetpro#1|js#tango.png}}

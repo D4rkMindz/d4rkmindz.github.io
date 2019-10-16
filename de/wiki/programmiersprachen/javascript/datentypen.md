@@ -94,7 +94,7 @@ Während Map und WeakMap einen Wert mit einem Objekt assoziieren (sich an- oder 
 
 
 ### JSON
-JavaScript Object Notation ([JSON](/wiki/programmiersprachen/javascript/json)), wird zur leichtgewichtigen Datenübertragung verwendet. Mit JSON können universelle Datenstrukturen aufgebaut und verschickt werden, um beispielsweise mit einem Server zu kommunizieren (Wird häuffig zusammen mit Ajax (Asynchronous JavaScript and XML) verwendet).
+JavaScript Object Notation ([JSON](/de/wiki/programmiersprachen/javascript/json)), wird zur leichtgewichtigen Datenübertragung verwendet. Mit JSON können universelle Datenstrukturen aufgebaut und verschickt werden, um beispielsweise mit einem Server zu kommunizieren (Wird häuffig zusammen mit Ajax (Asynchronous JavaScript and XML) verwendet).
 
 
 ### typeof

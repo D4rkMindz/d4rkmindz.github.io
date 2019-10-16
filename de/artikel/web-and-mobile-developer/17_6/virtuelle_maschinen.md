@@ -35,7 +35,7 @@ Ein Beispiel, wie der Code dazu aufgebaut ist sieht man auf GitHub unter [docker
 
 
 ### Erstes Dockerfile
-Man kann in einem Dockerfile den Grundcode definieren. Dieser ähnlich strukturiert wie [Assembly](/wiki/programmiersprachen/assembly).
+Man kann in einem Dockerfile den Grundcode definieren. Dieser ähnlich strukturiert wie [Assembly](/de/wiki/programmiersprachen/assembly).
 
 
 ```
@@ -48,7 +48,7 @@ Dieser Code ruft docker/whalesay in der aktuellsten Version auf und fürhrt den 
 
 
 
-Wenn man eine Verbindung ins Internet herstellen möchte, kann man die bereits halb-fertige Dockerkomponente [Httpd](https://hub.docker.com/_/httpd) verwenden. Diese Komponente kann Ports des Rechners auf Ports der VM mappen. Folgender Befehl mappt zuerst Port 8888 des Rechners auf Port 80 ([HTTP](/wiki/divers/protokolle/http)) der VM. Der Parameter ** sagt Docker, dass er in einer VM läuft.
+Wenn man eine Verbindung ins Internet herstellen möchte, kann man die bereits halb-fertige Dockerkomponente [Httpd](https://hub.docker.com/_/httpd) verwenden. Diese Komponente kann Ports des Rechners auf Ports der VM mappen. Folgender Befehl mappt zuerst Port 8888 des Rechners auf Port 80 ([HTTP](/de/wiki/divers/protokolle/http)) der VM. Der Parameter ** sagt Docker, dass er in einer VM läuft.
 
 
 ```

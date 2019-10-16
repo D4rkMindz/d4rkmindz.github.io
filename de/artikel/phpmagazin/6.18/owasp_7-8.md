@@ -6,7 +6,7 @@ In diesem Kapitel wurden nur OWASP 7 und 8 behandelt. Alle anderen wurden in vor
 
 
 ### Platz 7: XSS
-XSS ist die Abkürzung für [Cross-Site-Scripting](/wiki/hacking/xss). Bei dieser Attacke geht es darum, schädlichen Code in die Webseite über ein Formularfeld oder die URL einzufügen. Es gibt verschiedenen Arten von XSS.
+XSS ist die Abkürzung für [Cross-Site-Scripting](/de/wiki/hacking/xss). Bei dieser Attacke geht es darum, schädlichen Code in die Webseite über ein Formularfeld oder die URL einzufügen. Es gibt verschiedenen Arten von XSS.
 
 
 

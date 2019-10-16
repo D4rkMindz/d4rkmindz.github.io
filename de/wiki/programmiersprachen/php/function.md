@@ -5,32 +5,36 @@ In PHP hat man die Möglichkeit, Funktionen zu erstellen. Dies macht man, damit 
 Eine Funktion kann man wie folgt definieren:
 
 
-```phpfunction meineNeueFunktion(){ 
-   
-   }```
-Da eine Funktion einen Rückgabewert haben muss, ausser sie speichert zum Beispiel etwas in einer globalen Variable wie [$_SESSION](/wiki/programmiersprachen/php/session) ab, verwendet man ''return''. Man kann einen beliebigen [Datentypen](/wiki/programmiersprachen/php/datentypen) retournieren. Ebenso kann man **if/else Statements** einbauen. Damit man Variablen miteinander vergleichen kann, muss man diese in den Klammern mitgeben. Alle Variablen, welche innerhalb einer Funktion erstellt werden sind (ausser globale Variablen), wenn die Variablen nicht retourniert werden, nicht mehr vorhanden. Wichtig ist auch, dass man nur **einen Wert retournieren** kann. Die folgende Beispielfunktion retourniert, wenn Variable $a grösser als Variable $b ist einen Wert von true, sonst einen Wert von false:
+```php
+function meineNeueFunktion(){ 
+}
+```
+Da eine Funktion einen Rückgabewert haben muss, ausser sie speichert zum Beispiel etwas in einer globalen Variable wie [$_SESSION](/de/wiki/programmiersprachen/php/session) ab, verwendet man ''return''. Man kann einen beliebigen [Datentypen](/de/wiki/programmiersprachen/php/datentypen) retournieren. Ebenso kann man **if/else Statements** einbauen. Damit man Variablen miteinander vergleichen kann, muss man diese in den Klammern mitgeben. Alle Variablen, welche innerhalb einer Funktion erstellt werden sind (ausser globale Variablen), wenn die Variablen nicht retourniert werden, nicht mehr vorhanden. Wichtig ist auch, dass man nur **einen Wert retournieren** kann. Die folgende Beispielfunktion retourniert, wenn Variable $a grösser als Variable $b ist einen Wert von true, sonst einen Wert von false:
 
 
-```phpfunction compare($a, $b) {
-       if ($a > $b) {
-          return true;
-       } else {
-          return false
-       }
-    }```
+```php
+function compare($a, $b) {
+   if ($a > $b) {
+      return true;
+   } else {
+      return false
+   }
+}
+```
 
 
 
 Man kann auch weitaus komplexere Funktionen erstellen, man muss jedoch immer bedenken, dass eine Funktion nur eben einen Wert zurückliefern kann. 
 ### Return
-Eine Funktion sollte immer ein ''return'' haben. Wenn jedoch kein spezifischer Wert retourniert werden soll, sollte man in der Regel wenigstens (bei Erfolg) [boolean](/wiki/programmiersprachen/php/datentypen) true zurückliefern. Wenn man jedoch nur einen ''echo'' Befehl ausführt, dann braucht es keinen return Wert:
+Eine Funktion sollte immer ein ''return'' haben. Wenn jedoch kein spezifischer Wert retourniert werden soll, sollte man in der Regel wenigstens (bei Erfolg) [boolean](/de/wiki/programmiersprachen/php/datentypen) true zurückliefern. Wenn man jedoch nur einen ''echo'' Befehl ausführt, dann braucht es keinen return Wert:
 
 
-```phpfunction hello(){
-      echo "Hello World!";
-   }
-   hello(); //Displays Hello World!
-   ```
+```php
+function hello(){
+   echo "Hello World!";
+}
+hello(); //Displays Hello World!
+```
 ** Array oder String **
 
 

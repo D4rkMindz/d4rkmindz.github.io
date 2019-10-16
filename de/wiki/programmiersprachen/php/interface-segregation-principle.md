@@ -11,7 +11,7 @@ interface Rectangle {
   public function getArea(): int;
 }
 ```
-Das Problem hier ist, dass man bei einem Rechteck zwar Höhe und Breite hat, was passiert jedoch wenn man ein Quadrat (welches praktisch ein Rechteck ist) implementieren muss? Beachtet man das [Liskov Substitution Principle](/wiki/programmiersprachen/php/liskov-substitution-principle) jedoch korrekt, merkt man, dass man zwar bei dem Rechteck sowie bei dem Quadrat eine ''getArea()'' Methode braucht. Jedoch bezieht man sich bei dem Quadrat auf eine Länge, während ein Rechteck eine Höhe und eine Breite hat. Hier splittet man die Interfaces in ein Shape-Interface sowie in ein Square- und ein Rectangle-Interface auf.
+Das Problem hier ist, dass man bei einem Rechteck zwar Höhe und Breite hat, was passiert jedoch wenn man ein Quadrat (welches praktisch ein Rechteck ist) implementieren muss? Beachtet man das [Liskov Substitution Principle](/de/wiki/programmiersprachen/php/liskov-substitution-principle) jedoch korrekt, merkt man, dass man zwar bei dem Rechteck sowie bei dem Quadrat eine ''getArea()'' Methode braucht. Jedoch bezieht man sich bei dem Quadrat auf eine Länge, während ein Rechteck eine Höhe und eine Breite hat. Hier splittet man die Interfaces in ein Shape-Interface sowie in ein Square- und ein Rectangle-Interface auf.
 
 
 ```

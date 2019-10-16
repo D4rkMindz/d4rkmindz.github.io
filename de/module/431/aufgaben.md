@@ -177,7 +177,7 @@ Arbeitsweise
 **Aufgabe 1**
 
 
-[6-3-5 Methode](/module/431/kreativitaetsmethoden) anwenden. Wir haben in einer 5er Gruppe Ideen gesammelt für unsere Schulabschlussreise. Das kam aber nicht so gut heraus, da viele noch sehr müde waren.
+[6-3-5 Methode](/de/module/431/kreativitaetsmethoden) anwenden. Wir haben in einer 5er Gruppe Ideen gesammelt für unsere Schulabschlussreise. Das kam aber nicht so gut heraus, da viele noch sehr müde waren.
 
 
 **Aufgabe 2**

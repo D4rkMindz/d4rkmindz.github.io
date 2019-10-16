@@ -1,5 +1,5 @@
 ## Fallback für Gridlayout
-Das [Grid-Layout](/artikel/ct-webdesign/2017/layout-grids-mit-css) habe ich bereits vorgestellt. Was ist jedoch, wenn ein Browser dieses Layout nicht unterstützt?
+Das [Grid-Layout](/de/artikel/ct-webdesign/2017/layout-grids-mit-css) habe ich bereits vorgestellt. Was ist jedoch, wenn ein Browser dieses Layout nicht unterstützt?
 
 
 Die wichtigste Frage, die man sich stellen muss, ist:

@@ -20,10 +20,10 @@ Löscht Daten.
 DELETE FROM table [WHERE condition];
 ```
 ### JOINS
-Da man Tabellen aus Effizienzgründen [normalisiert](/wiki/programmiersprachen/datenbanken/relational/normalisierung) muss man irgendwann diese Daten wieder zusammenführen. Dazu gibt es den JOIN Befehl in verschiedenen Arten. Einen sehr guten Überblick findet man [hier](https://www.linux-tips-and-tricks.de/de/datenbanken/10-sql-joins-einfach-erklaert) und [hier](https://glossar.hs-augsburg.de/Verbundoperatoren_(Join)).
+Da man Tabellen aus Effizienzgründen [normalisiert](/de/wiki/programmiersprachen/datenbanken/relational/normalisierung) muss man irgendwann diese Daten wieder zusammenführen. Dazu gibt es den JOIN Befehl in verschiedenen Arten. Einen sehr guten Überblick findet man [hier](https://www.linux-tips-and-tricks.de/de/datenbanken/10-sql-joins-einfach-erklaert) und [hier](https://glossar.hs-augsburg.de/Verbundoperatoren_(Join)).
 
 
-![No alt text available](/wiki/programmiersprachen/datenbanken/sql_joins.png)
+![No alt text available](/de/wiki/programmiersprachen/datenbanken/sql_joins.png)
 #### INNER JOIN
 Der Inner Join verbindet Datensätze aus zwei Tabellen bei denen die Werte in beiden Tabellen gleich sind. Es gibt keine leeren Datensätze.
 ```

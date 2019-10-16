@@ -1,5 +1,5 @@
 ## Normalisierung
-Bei der Normalisierung geht es darum, ein sinnvolles [Datenbankschema](/wiki/programmiersprachen/datenbanken/start#datenbankschema) zu haben. Das Hauptziel dabei ist, Redundanzen zu vermeiden. Wenn man zum Beispiel in einer Datenbank mehrere gleiche Attribute in einer Zeile hat, und man das Schema ändert, kann es zu fehlerhaften Daten kommen. Diese nennt man dann Anomalien.
+Bei der Normalisierung geht es darum, ein sinnvolles [Datenbankschema](/de/wiki/programmiersprachen/datenbanken/#datenbankschema) zu haben. Das Hauptziel dabei ist, Redundanzen zu vermeiden. Wenn man zum Beispiel in einer Datenbank mehrere gleiche Attribute in einer Zeile hat, und man das Schema ändert, kann es zu fehlerhaften Daten kommen. Diese nennt man dann Anomalien.
 
 
 Um gegen Anomalien vorzugehen gibt es verschieden Datenbankschemen. Hierbei spricht man von Normalformen (NF). Eine Normalform kann nur gegeben sein, wenn die vorherige Normalform auch gegeben ist. Es gibt sieben Normalformen:
@@ -39,7 +39,7 @@ Auf [Wikipedia](https://de.wikipedia.org/wiki/Normalisierung_(Datenbank)#Erste_N
 
 
 
-Wenn man das ein wenig verständlicher beschreiben möchte, kann man sagen, dass kein Attribut eine "Liste" von Daten enthalten darf. Das bedeutet, wenn ich in einer Datenbank eine Adresse speichern muss, muss ich die Adresse aufteilen in Land, Kanton, Dorf/Stadt, PLZ, Strasse, Hausnummer, etc. Auf die oben gezeigte Tabelle würde sich das so auswirken, dass man pro Titel eine Zeile hat. Jedoch weiss man danach nicht mehr, in welcher Reihenfolge die Titel auf dem Album sind. Ebenso gibt es keinen [eindeutigen Schlüssel](/wiki/programmiersprachen/datenbanken/relational/key_concept/primary_key) mehr. Deshalb fügt man ein neues Attribut für die Position des Tracks im Album ein (und der Lesbarkeit halber wird Titelliste in Titel umbenannt). Auch das Attribut Album wird aufgeteilt in Albumtitel und Interpret. Nach der ersten Normalform normalisiert, würde diese Tabelle wie folgt aussehen:
+Wenn man das ein wenig verständlicher beschreiben möchte, kann man sagen, dass kein Attribut eine "Liste" von Daten enthalten darf. Das bedeutet, wenn ich in einer Datenbank eine Adresse speichern muss, muss ich die Adresse aufteilen in Land, Kanton, Dorf/Stadt, PLZ, Strasse, Hausnummer, etc. Auf die oben gezeigte Tabelle würde sich das so auswirken, dass man pro Titel eine Zeile hat. Jedoch weiss man danach nicht mehr, in welcher Reihenfolge die Titel auf dem Album sind. Ebenso gibt es keinen [eindeutigen Schlüssel](/de/wiki/programmiersprachen/datenbanken/relational/key_concept/primary_key) mehr. Deshalb fügt man ein neues Attribut für die Position des Tracks im Album ein (und der Lesbarkeit halber wird Titelliste in Titel umbenannt). Auch das Attribut Album wird aufgeteilt in Albumtitel und Interpret. Nach der ersten Normalform normalisiert, würde diese Tabelle wie folgt aussehen:
 
 
 
@@ -117,7 +117,7 @@ Tabelle: **Liste**
 
 
 
-Die 3NF wird erreicht, indem man Attribute, welche nicht von dem [Primärschlüssel (CD_ID)](/wiki/programmiersprachen/datenbanken/relational/key_concept/primary_key) abhängig sind, in eine neue Tabelle einfügt. Das heisst, dass man in der Tabelle CD den Interpret entfernt. Damit die CD aber immer noch einem Interpreten zugewiesen ist, vergibt man eine Interpreten_ID. In der Tabelle Interpret fügt man zusätzlich noch Merkmale hinzu, damit der Interpret unverwechselbar ist.
+Die 3NF wird erreicht, indem man Attribute, welche nicht von dem [Primärschlüssel (CD_ID)](/de/wiki/programmiersprachen/datenbanken/relational/key_concept/primary_key) abhängig sind, in eine neue Tabelle einfügt. Das heisst, dass man in der Tabelle CD den Interpret entfernt. Damit die CD aber immer noch einem Interpreten zugewiesen ist, vergibt man eine Interpreten_ID. In der Tabelle Interpret fügt man zusätzlich noch Merkmale hinzu, damit der Interpret unverwechselbar ist.
 
 
 

@@ -68,4 +68,4 @@ let g = (value1: number, value2: number): number => value1 + value2;
 ```
 
 ### Fazit
-TypeScript ist eine sehr angenehme Sprache (im Vergleich zu JavaScript), da diese stark typisiert ist. Genau diesen Vorteil nutzt [Angular 4](https://angular.io/) und somit auch [Ionic](/ionic/) aus.
+TypeScript ist eine sehr angenehme Sprache (im Vergleich zu JavaScript), da diese stark typisiert ist. Genau diesen Vorteil nutzt [Angular 4](https://angular.io/) und somit auch [Ionic](/de/ionic/) aus.

@@ -1,5 +1,5 @@
 ## Spitzenposition
-Einen sehr ausführlichen Teil über SEO findet man im Magazin [c'T Webdesign](/artikel/ct-webdesign/2017).
+Einen sehr ausführlichen Teil über SEO findet man im Magazin [c'T Webdesign](/de/artikel/ct-webdesign/2017).
 
 
 Um bei Google erster zu sein kann man Rich Snippets verwenden. Diese Snippets sind die Antwortboxen auf ganz spezifische [Fragen](https://www.google.ch/search?q=welches+%C3%96l+zum+Braten&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&dcr=0&ei=BJaBWu_wPNDBXveqjOAP).

@@ -1,5 +1,5 @@
 ## Kapaztätsgrenzen
-Inzwischen geraten herkömmliche [RDBMS](/wiki/programmiersprachen/datenbanken/relational) an ihre Grenzen. Deshalb gibt es sogenannte NoSQL-Datenbanken.
+Inzwischen geraten herkömmliche [RDBMS](/de/wiki/programmiersprachen/datenbanken/relational) an ihre Grenzen. Deshalb gibt es sogenannte NoSQL-Datenbanken.
 
 
 
@@ -20,7 +20,7 @@ Inzwischen geraten herkömmliche [RDBMS](/wiki/programmiersprachen/datenbanken/r
 
 
 ##### Cassandra
-Das von Apache entwickelte DBMS [Continous Query Language (CQL)](/http/**de.wikipedia.org/wiki/Continuous_Query_Language) bearbeitet. Der Vorteil gegenüber herkömmlichen RDBMS ist, dass Cassandra Felder nur belegt, wenn diese effektiv beschrieben werden.
+Das von Apache entwickelte DBMS [Continous Query Language (CQL)](/de/http/**de.wikipedia.org/wiki/Continuous_Query_Language) bearbeitet. Der Vorteil gegenüber herkömmlichen RDBMS ist, dass Cassandra Felder nur belegt, wenn diese effektiv beschrieben werden.
 
 
 Wenn eine Abfrage auf ein leeres Feld erfolgt, dann wird null retourniert.

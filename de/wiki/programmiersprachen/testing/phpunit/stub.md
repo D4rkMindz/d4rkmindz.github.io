@@ -17,7 +17,7 @@
 Ein Beispiel, welches Daten aus einer Datenbank holen muss und damit auf einen Methodenaufruf antwortet. Anstatt mit dem echten Objekt zu antworten wird ein Stub mit vordefinierten Daten retourniert.
 
 
-![No alt text available](/wiki/programmiersprachen/testing/phpunit/unit-testing-stub.png)
+![No alt text available](/de/wiki/programmiersprachen/testing/phpunit/unit-testing-stub.png)
 
 
 

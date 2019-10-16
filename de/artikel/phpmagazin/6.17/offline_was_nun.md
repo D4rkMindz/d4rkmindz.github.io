@@ -1,5 +1,5 @@
 ## Offline, was nun?
-Mittels [Service Workers](https://developer.mozilla.org/en-US/docs/web/api/service_worker_api) kann man inzwischen auch Offline eine Webseite zum Laufen bringen. Dies ist auch nicht neu, jedoch wird dieser Gedanke mit den [PWAs](/artikel/phpmagazin/4.17/progressive_web_app) sehr gefördert.
+Mittels [Service Workers](https://developer.mozilla.org/en-US/docs/web/api/service_worker_api) kann man inzwischen auch Offline eine Webseite zum Laufen bringen. Dies ist auch nicht neu, jedoch wird dieser Gedanke mit den [PWAs](/de/artikel/phpmagazin/4.17/progressive_web_app) sehr gefördert.
 
 
 Nachdem man ein Serviceworker Script registriert hat startet der "Circle of Life"
@@ -8,7 +8,7 @@ Nachdem man ein Serviceworker Script registriert hat startet der "Circle of Life
 ```
 window.navigator.serviceWorker.register('/path/to/serviceworker.js');
 ```
-![No alt text available](/artikel/phpmagazin/6.17/sw-lifecycle.png)
+![No alt text available](/de/artikel/phpmagazin/6.17/sw-lifecycle.png)
 
 
 #### Parsed

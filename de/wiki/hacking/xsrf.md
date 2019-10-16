@@ -1,5 +1,5 @@
 ## Cross-Site Request Forgeries (XSRF/CSRF)
-Bei CSRF geht es darum, dass ein Hacker den Benutzer oder Browser dazu bringt, einen [HTTP-Request](/wiki/divers/http-request) an die Webapplikation zu schicken. Bedingung dafür ist, dass der Benutzer bereits in der Webapplikation angemeldet ist. So kann bewirkt werden, dass zum Beispiel ein erstellen eines Adminstratoren Accounts ausgelöst wird.
+Bei CSRF geht es darum, dass ein Hacker den Benutzer oder Browser dazu bringt, einen [HTTP-Request](/de/wiki/divers/http-request) an die Webapplikation zu schicken. Bedingung dafür ist, dass der Benutzer bereits in der Webapplikation angemeldet ist. So kann bewirkt werden, dass zum Beispiel ein erstellen eines Adminstratoren Accounts ausgelöst wird.
 
 
 Dies ist über verschiedene Varianten möglich.
@@ -9,13 +9,13 @@ Dies ist über verschiedene Varianten möglich.
 ----
 
 ### Bilder (img-Tag)
-Der Browser lädt automatisch Bilder, bevor der Benutzer überhaupt etwas gemacht hat. Der Browser erkennt dabei auch nicht, ob es sich um ein Bild handelt oder einfach um einen Link. Auch lädt er alle Bilder über einen [HTTP-GET-Request](/wiki/divers/http-request). Das heisst, ein Hacker kann mit folgender Zeile Code einen CSRF auslösen.
+Der Browser lädt automatisch Bilder, bevor der Benutzer überhaupt etwas gemacht hat. Der Browser erkennt dabei auch nicht, ob es sich um ein Bild handelt oder einfach um einen Link. Auch lädt er alle Bilder über einen [HTTP-GET-Request](/de/wiki/divers/http-request). Das heisst, ein Hacker kann mit folgender Zeile Code einen CSRF auslösen.
 
 
 ```html
 <img src="www.example.org/user-editor.php?do=create_account&name=admin&password=geheim&rights=system" />
 ```
-Die Webapplikation misstraut diesem Link auch nicht, da der Benutzer bereits eingeloggt ist. Es ist zwar grundsätzlich nicht okay, solche [CRUD-Operationen](/wiki/programmiersprachen/php/crud) über einen [HTTP-GET-Request](/wiki/divers/http-request) zu machen, aber es gibt immer Programmierer, welche es so machen.
+Die Webapplikation misstraut diesem Link auch nicht, da der Benutzer bereits eingeloggt ist. Es ist zwar grundsätzlich nicht okay, solche [CRUD-Operationen](/de/wiki/programmiersprachen/php/crud) über einen [HTTP-GET-Request](/de/wiki/divers/http-request) zu machen, aber es gibt immer Programmierer, welche es so machen.
 
 
 
@@ -48,7 +48,7 @@ Eine Webapplikation gegen einen Local Exploit zu schützen ist sehr schwer. Da b
 ----
 
 ### Schutz gegen XSRF/CSRF
-Um sich gegen eine CSRF-Attacke einigermassen zu schützen kann man ein verstecktes input-Tag in seinem [HTML-Code](/wiki/programmiersprachen/html) einfügen. Auf dem Server wird dann als Wert ein Sicherheitstoken eingesetzt. Damit man das Sicherheitstoken vergleichen kann speichert man dies zusätzlich in der Session ab. Ebenfalls empfiehlt sich, dem Token ein Verfallsdatum (z.B.: 5 Minuten) zu zuweisen. Der Code in der Datei "user-editor-start.php" wäre dann wie folgt aufgebaut.
+Um sich gegen eine CSRF-Attacke einigermassen zu schützen kann man ein verstecktes input-Tag in seinem [HTML-Code](/de/wiki/programmiersprachen/html) einfügen. Auf dem Server wird dann als Wert ein Sicherheitstoken eingesetzt. Damit man das Sicherheitstoken vergleichen kann speichert man dies zusätzlich in der Session ab. Ebenfalls empfiehlt sich, dem Token ein Verfallsdatum (z.B.: 5 Minuten) zu zuweisen. Der Code in der Datei "user-editor-start.php" wäre dann wie folgt aufgebaut.
 
 
 ```php
@@ -104,4 +104,4 @@ if ($tokenAge <= 300) {
 
 //Below here, you can place your validation.
 ```
-Mit diesem Code ist ein CSRF sehr erschwert. Jedoch auch dieser ist nicht 100%ig sicher. Man kann diesen mit einer [Man-in-the-middle Attacke](/wiki/hacking/man-in-the-middle-attacke) umgehen. In diesem Fall könnte man einer Man-in-the-middle Attacke vorbeugen, indem man seine Webseite über eine verschlüsselte Verbindung ([HTTPS](/wiki/divers/ssl)) übermittelt.
+Mit diesem Code ist ein CSRF sehr erschwert. Jedoch auch dieser ist nicht 100%ig sicher. Man kann diesen mit einer [Man-in-the-middle Attacke](/de/wiki/hacking/man-in-the-middle-attacke) umgehen. In diesem Fall könnte man einer Man-in-the-middle Attacke vorbeugen, indem man seine Webseite über eine verschlüsselte Verbindung ([HTTPS](/de/wiki/divers/ssl)) übermittelt.

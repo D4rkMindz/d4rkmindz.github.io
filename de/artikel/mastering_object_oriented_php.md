@@ -1,5 +1,5 @@
 ## Mastering Object-Oriented PHP
-Seit PHP 4 gibt es ein Objektmodell in PHP. Richtige Objektorientierung kam dann erst mit PHP 5. Vor PHP 5 bestand nie das Verlangen nach einer Objektorientierung. PHP war eine Prozedurale ("[Spaghetti Code](/wiki/programmiersprachen/php/function)") Skriptingsprache. Viele Leute, welche damals PHP verwendet haben, waren nicht einmal Programmierer.
+Seit PHP 4 gibt es ein Objektmodell in PHP. Richtige Objektorientierung kam dann erst mit PHP 5. Vor PHP 5 bestand nie das Verlangen nach einer Objektorientierung. PHP war eine Prozedurale ("[Spaghetti Code](/de/wiki/programmiersprachen/php/function)") Skriptingsprache. Viele Leute, welche damals PHP verwendet haben, waren nicht einmal Programmierer.
 
 
 Als Objektorientierung in PHP eingeführt wurde, wurden auch die entsprechenden Begriffe immer wie wichtiger. Hier ein paar davon:
@@ -49,7 +49,7 @@ Auf der [Webseite von PHP](http://php.net/manual/de/language.oop5.visibility.php
 Wie in vielen Programmiersprachen gibt es auch in PHP den Begriff von ''this''. Jedoch wird in PHP ''$this'' und nicht ''this'' verwendet, das ''$this'' eine Variable ([Pseudovariable](https://en.wiktionary.org/wiki/pseudovariable)) ist. Variablen werden in PHP bekanntermassen mit einem ''$''-Zeichen Angeführt.
 
 
-Im Gegensatz zu JavaScript, bei dem ''this'' auf den [Execution Context](https://blog.pragmatists.com/the-many-faces-of-this-in-javascript-5f8be40df52e) verweist, repräsentiert [$this](/wiki/programmiersprachen/this) in PHP die Instanz des aufgerufenen Obejktes. Meistens ist dies die Klasse selbst sowie deren ''parent''-Klassen. Jedoch ist es auch möglich, dass ''$this'' nicht auf das Objekt, welchem die Methode oder Variable gehört, referenziert. Dies ist der Fall, wenn die Methode [statisch](http://php.net/manual/de/language.oop5.basic.php) aus dem Kontext eines anderen Objektes aufgerufen wird.
+Im Gegensatz zu JavaScript, bei dem ''this'' auf den [Execution Context](https://blog.pragmatists.com/the-many-faces-of-this-in-javascript-5f8be40df52e) verweist, repräsentiert [$this](/de/wiki/programmiersprachen/this) in PHP die Instanz des aufgerufenen Obejktes. Meistens ist dies die Klasse selbst sowie deren ''parent''-Klassen. Jedoch ist es auch möglich, dass ''$this'' nicht auf das Objekt, welchem die Methode oder Variable gehört, referenziert. Dies ist der Fall, wenn die Methode [statisch](http://php.net/manual/de/language.oop5.basic.php) aus dem Kontext eines anderen Objektes aufgerufen wird.
 
 
 
@@ -275,7 +275,7 @@ public class JavaExample {
   }
 }
 ```
-Falls hier ein anderer Datentyp als ein String übergeben wird schlägt das Programm fehl. Das gleiche ist seit PHP 5.3 auch möglich. PHP wird einen Fatal Error (E_ERROR) ausgeben, wenn dieser Datentyp nicht eingehalten wird. Neben den [primitiven Datentypen](/wiki/programmiersprachen/php/datentypen) kann man auch eigens erstellte Klassen (Objekte) typehinten.
+Falls hier ein anderer Datentyp als ein String übergeben wird schlägt das Programm fehl. Das gleiche ist seit PHP 5.3 auch möglich. PHP wird einen Fatal Error (E_ERROR) ausgeben, wenn dieser Datentyp nicht eingehalten wird. Neben den [primitiven Datentypen](/de/wiki/programmiersprachen/php/datentypen) kann man auch eigens erstellte Klassen (Objekte) typehinten.
 ```
 class PhpExample 
 {
@@ -324,10 +324,10 @@ Dies kann in vielen Situationen starke Kopfschmerzen vermeiden.
 
 
 ### Abstraktion
-Durch Abstraktion kann man seinen Code sehr stark verschönern und lesbarer machen. Gerade wenn es um die Einhaltung der [SOLID](/wiki/programmiersprachen/php/solid)-Prinzipien geht ist dies besonders hilfreich. Auch sollte man sich an folgendes Prinzip halten: ''one class, one job'' (single responsibility principle)
+Durch Abstraktion kann man seinen Code sehr stark verschönern und lesbarer machen. Gerade wenn es um die Einhaltung der [SOLID](/de/wiki/programmiersprachen/php/solid)-Prinzipien geht ist dies besonders hilfreich. Auch sollte man sich an folgendes Prinzip halten: ''one class, one job'' (single responsibility principle)
 
 
-Auch der Aufbau einer Applikation mit [Model View Controller (MVC)](/wiki/programmiersprachen/php/mvc) wird durch Abstraktion von Code ermöglicht. Bei der Umsetzung von MVC sollte man darauf achten, dass man [skinny controllers and fat models](http://de.slideshare.net/damiansromek/thin-controllers-fat-models-proper-code-structure-for-mvc) hat.
+Auch der Aufbau einer Applikation mit [Model View Controller (MVC)](/de/wiki/programmiersprachen/php/mvc) wird durch Abstraktion von Code ermöglicht. Bei der Umsetzung von MVC sollte man darauf achten, dass man [skinny controllers and fat models](http://de.slideshare.net/damiansromek/thin-controllers-fat-models-proper-code-structure-for-mvc) hat.
 
 
 Die Implementierung von Interfaces ermöglicht ebenfalls schöneren Code. Man kann sich dank der Implementierung eines Interfaces sicher sein, dass eine Methode immer genau gleich heisst, egal ob diese jetzt in einer MysqlAdapter oder PostgresqlAdapter Klasse ist.
@@ -423,7 +423,7 @@ Exceptions sind eine sehr mächtiges Tool. Jedoch muss man sich dessen bewusst s
 
 
 ### Autoloading
-Da PHP-Dateien während der Ausführung kompiliert (interpretiert) werden, muss man aufpassen, welche Datei man wann lädt, da es sonst zu unnötigem Verbrauch von Rechenkapazitäten kommt. Dank [Composer](/installationen/composer) ist dieses Thema nicht mehr so wichtig wie es früher einmal war, jedoch ist es trotzdem gut zu wissen, wie das Autoloading funktioniert.
+Da PHP-Dateien während der Ausführung kompiliert (interpretiert) werden, muss man aufpassen, welche Datei man wann lädt, da es sonst zu unnötigem Verbrauch von Rechenkapazitäten kommt. Dank [Composer](/de/installationen/composer) ist dieses Thema nicht mehr so wichtig wie es früher einmal war, jedoch ist es trotzdem gut zu wissen, wie das Autoloading funktioniert.
 
 
 Früher (PHP 4) konnte man einer Klasse eine magische Methode ''̲ ̲ autoload()'' hinzufügen, und in dieser Methode definieren, wie man diese Datei lädt. Diese Methode ist inzwischen veraltet und wurde durch ''spl_autoload_register()'' ersetzt. [Diese Methode](http://php.net/manual/de/function.spl-autoload-register.php) registriert eine Funktion, welche das Laden einer (oder mehrere) Datei(en) handelt. Zusätzlich kann man mehrere funktionen als Autoloader registrieren. Es werden alle in der Reihenfolge abgearbeitet, wie diese registriert wurden (FIFO).

@@ -17,7 +17,7 @@ Auch das Management trägt viel beim Entwicklungsprozess bei. All zu oft kommt d
 
 
 #### Das Setup machts
-Viele Entwickler arbeiten selbst heute noch mit ''var_dump($x); exit;''. Mit [XDebug](/installationen/xdebug) kann man sehr viel erreichen. Zum Beispiel kann man den Wert von Variablen während der Laufzeit manipulieren. So erspart man sich das mühsame erneute starten eines Prozesses.
+Viele Entwickler arbeiten selbst heute noch mit ''var_dump($x); exit;''. Mit [XDebug](/de/installationen/xdebug) kann man sehr viel erreichen. Zum Beispiel kann man den Wert von Variablen während der Laufzeit manipulieren. So erspart man sich das mühsame erneute starten eines Prozesses.
 
 
 #### Teamwork

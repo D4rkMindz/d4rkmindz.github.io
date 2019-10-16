@@ -12,7 +12,7 @@ Dafür werden Daten zum einen durch ein Datenmodell beschrieben, zum anderen bie
 
 
 
-{{indexmenu>:wiki:programmiersprachen:datenbanken#2|js#tango.png}}
+TODO: fix indexmenu>:wiki:programmiersprachen:datenbanken#2|js#tango.png}}
 
 ----
 
@@ -32,19 +32,19 @@ Die Anforderungen für ein Datenbank System sind sehr hoch. Da meistens nicht nu
 ### Datenbank Modelle
 
 Es gibt sechs verschieden Datenbank Modelle. Jedes Modell ist geeigent für gewisse Zwecke:
-  * [Hirarchisch](/wiki/programmiersprachen/datenbanken/hirarchisch) - Nur Eltern->Kind Beziehungen
-  * [Netzwerkartig](/wiki/programmiersprachen/datenbanken/netzwerkartig) - Datenobjekte werden miteinander in Netzen verbunden
-  * [Relational](/wiki/programmiersprachen/datenbanken/relational) - Daten werden in Tabellen gespeichert. Diese können Beziehungen zwischen einander haben.
-  * [Objektrational](/wiki/programmiersprachen/datenbanken/objektrational) - Kommt zum Einsatz, wo Mengen von Objekten in Beziehung zu anderen Daten oder Objekten gebracht werden.
-  * [Objektorientiert](/wiki/programmiersprachen/datenbanken/objektorientiert) - Beziehungen werden automatisch verwaltet. Objekte können Daten und Eigenschaften erben.
-  * [Dokumentorientiert](/wiki/programmiersprachen/datenbanken/dokumentorientiert) - Objekte werden als Dokument gespeichert. Es gibt keine Strukturgleichheit.
+  * [Hirarchisch](/de/wiki/programmiersprachen/datenbanken/hierarchisch) - Nur Eltern->Kind Beziehungen
+  * [Netzwerkartig](/de/wiki/programmiersprachen/datenbanken/netzwerkartig) - Datenobjekte werden miteinander in Netzen verbunden
+  * [Relational](/de/wiki/programmiersprachen/datenbanken/relational) - Daten werden in Tabellen gespeichert. Diese können Beziehungen zwischen einander haben.
+  * [Objektrational](/de/wiki/programmiersprachen/datenbanken/objektrational) - Kommt zum Einsatz, wo Mengen von Objekten in Beziehung zu anderen Daten oder Objekten gebracht werden.
+  * [Objektorientiert](/de/wiki/programmiersprachen/datenbanken/objektorientiert) - Beziehungen werden automatisch verwaltet. Objekte können Daten und Eigenschaften erben.
+  * [Dokumentorientiert](/de/wiki/programmiersprachen/datenbanken/dokumentorientiert) - Objekte werden als Dokument gespeichert. Es gibt keine Strukturgleichheit.
 
 ----
 
 ### Datenbank Begriffe
 
 ##### Attribut
-Ein Attribut oder auch Eigenschaft ist in einer Datenbank eine Tabellenspalte. In dem dargestellten [Beispiel](/wiki/programmiersprachen/datenbanken/relational/key_concept/primary_key) wäre das z.B. die Spalte Lohn. Auch die Spalte Name ist ein Attribut.
+Ein Attribut oder auch Eigenschaft ist in einer Datenbank eine Tabellenspalte. In dem dargestellten [Beispiel](/de/wiki/programmiersprachen/datenbanken/relational/key_concept/primary_key) wäre das z.B. die Spalte Lohn. Auch die Spalte Name ist ein Attribut.
 ##### Relation
 Eine Relation ist eine Tabelle. Wichtig in einer Tabelle ist, dass alle Datensätze in eine Relation miteinander gebracht werden können.
 ##### Datenbankschema

@@ -1,4 +1,4 @@
 ## iX
-![No alt text available](/artikel/ix_logo.svg.png)
+![No alt text available](/de/artikel/ix_logo.svg.png)
 
-{{indexmenu>:artikel:ix#1|js#tango.png}}
+TODO: fix indexmenu>:artikel:ix#1|js#tango.png}}

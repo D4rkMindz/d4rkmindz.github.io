@@ -17,4 +17,4 @@ Eine Webseite, welche schnell lädt ist besser. Wer sagt sowas? Google. Die Lade
 Ich habe meine Webseite selber getestet mit pingdom.com. Folgende Resultate habe ich bekommen (einmal ein Test aus Schweden und einmal aus Australien)
 
 
-![No alt text available](/artikel/kinsta.com/speedtest-sweden.png)![No alt text available](/artikel/kinsta.com/speedtest-australia.png)
+![No alt text available](/de/artikel/kinsta.com/speedtest-sweden.png)![No alt text available](/de/artikel/kinsta.com/speedtest-australia.png)

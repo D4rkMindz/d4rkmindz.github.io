@@ -16,7 +16,7 @@ Wenn bei dem Shebang das ! vergessen wird (was ab und zu noch passiert), dann is
 
 ### Kanäle
 Die Shell hat dabei drei (eigentlich 10, aber nur 3 sind die am meisten verwendeten) Kanäle.
-![No alt text available](/artikel/web-and-mobile-developer/8_18/shell-std.png )
+![No alt text available](/de/artikel/web-and-mobile-developer/8_18/shell-std.png )
 **stdin** ist der Standard Input. Normalerweise ist dies die Eingabe welche über die Tastatur erfolgt.
 
 

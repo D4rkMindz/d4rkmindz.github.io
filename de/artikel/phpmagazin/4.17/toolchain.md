@@ -1,6 +1,6 @@
 =### Toolchain
 #### Der Blick in den Werkzeugkasten
-Im [vorherigen Artikel](/artikel/phpmagazin/3.17/sicher_ins_ziel) wurde eine Basis für das Projekt erschaffen. Nun geht es darum, den [Jenkins](https://jenkins.io/)-Deployment-Server einzurichten.
+Im [vorherigen Artikel](/de/artikel/phpmagazin/3.17/sicher_ins_ziel) wurde eine Basis für das Projekt erschaffen. Nun geht es darum, den [Jenkins](https://jenkins.io/)-Deployment-Server einzurichten.
 
 
 
@@ -14,7 +14,7 @@ Das Erstellen von Tests vor dem Programmieren hat viele Vorteile, wie zum Beispi
 
 
 ### Tools
-Es gibt zwei Umgebungen. Den Jenkins-Deployment-Server und die Entwicklungsumgebung. Den Jenkins-Server muss man wie im [Tutorial](https://jenkins.io/doc/) beschrieben installieren. Nachdem dann im Deployment-Prozess in der Entwicklungsumgebung auf [Lints](/wiki/programmiersprachen/javascript/statische_codeanalyse#statische_codeanalyse_in_php) getestet wurde, kann man nun auf dem Server die Tests durchlaufen lassen. Dazu hat man zwei Optionen. Entweder man installiert die benötigten Programme direkt auf dem Server oder man lädt diese mittels Phing (Ant) und Composer herunter und bindet diese anschliessend ein. Die zweite Variante bringt den Vorteil, dass man Tests auch in der Entwicklungsumgebung ausführen kann.
+Es gibt zwei Umgebungen. Den Jenkins-Deployment-Server und die Entwicklungsumgebung. Den Jenkins-Server muss man wie im [Tutorial](https://jenkins.io/doc/) beschrieben installieren. Nachdem dann im Deployment-Prozess in der Entwicklungsumgebung auf [Lints](/de/wiki/programmiersprachen/javascript/statische_codeanalyse#statische_codeanalyse_in_php) getestet wurde, kann man nun auf dem Server die Tests durchlaufen lassen. Dazu hat man zwei Optionen. Entweder man installiert die benötigten Programme direkt auf dem Server oder man lädt diese mittels Phing (Ant) und Composer herunter und bindet diese anschliessend ein. Die zweite Variante bringt den Vorteil, dass man Tests auch in der Entwicklungsumgebung ausführen kann.
 
 
 Die Konfiguration von Jenkins ist mit einem GUI sehr gut umgesetzt.
@@ -31,7 +31,7 @@ Composer ist für die Abhängigkeiten verantwortlich. Dieser greifft auf [Packag
 
 
 #### Projektstruktur
-Die Projektstruktur ist in verschieden Komponenten Aufgeteilt. Diese sind nach der [Model-View-Controller](/wiki/programmiersprachen/php/mvc)-Architektur aufgebaut.
+Die Projektstruktur ist in verschieden Komponenten Aufgeteilt. Diese sind nach der [Model-View-Controller](/de/wiki/programmiersprachen/php/mvc)-Architektur aufgebaut.
 
 
 

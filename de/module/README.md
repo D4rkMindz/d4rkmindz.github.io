@@ -1,21 +1,11 @@
 ## Module
 
+[431 - ePortfolio](/de/module/431)
 
+[101 - Webauftritt erstellen](/de/module/101)
 
-[431 - ePortfolio](/module/431)
+[301 - Office anwenden](/de/module/301)
 
+[403 - Java](/de/module/403)
 
-
-[101 - Webauftritt erstellen](/module/101)
-
-
-
-[301 - Office anwenden](/module/301)
-
-
-
-[403 - Java](/module/403)
-
-
-
-[Lernjournal](/lernjournal/start)
+[Lernjournal](/de/lernjournal/)

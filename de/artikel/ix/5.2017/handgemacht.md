@@ -14,7 +14,7 @@ Die Lösung für dieses Problem sind die Transpiler (der bekannteste ist [Babel]
 
 
 
-Um die Typensicherheit von JavaScript zu erhöhen wurde TypeScript entwickelt (Verwendung z. B. im Node.js Umfeld). Vom Compiler werden die [statische Codeanalyse](/wiki/programmiersprachen/javascript/statische_codeanalyse)], Klassen, Interfaces und Module unterstützt.
+Um die Typensicherheit von JavaScript zu erhöhen wurde TypeScript entwickelt (Verwendung z. B. im Node.js Umfeld). Vom Compiler werden die [statische Codeanalyse](/de/wiki/programmiersprachen/javascript/statische_codeanalyse)], Klassen, Interfaces und Module unterstützt.
 
 
 

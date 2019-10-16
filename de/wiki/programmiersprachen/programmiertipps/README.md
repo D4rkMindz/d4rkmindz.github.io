@@ -1,11 +1,11 @@
 ## Programmiertipps
-Um einen Sauberen Code zu schreiben, reicht es nicht, nur die Syntax zu verstehen. Wichtig ist auch, dass man den Code so schreibt, dass eine anderer [Programmierer](/wiki/programmierer) ihn auch lesen und verstehen kann. Dazu kann ich folgende Tipps geben:
+Um einen Sauberen Code zu schreiben, reicht es nicht, nur die Syntax zu verstehen. Wichtig ist auch, dass man den Code so schreibt, dass eine anderer [Programmierer](/de/wiki/programmierer) ihn auch lesen und verstehen kann. Dazu kann ich folgende Tipps geben:
 
 
 
 
 
-{{indexmenu>:wiki:programmiersprachen:programmiertipps#1|js#tango.png}}
+TODO: fix indexmenu>:wiki:programmiersprachen:programmiertipps#1|js#tango.png}}
 
 
 
@@ -24,7 +24,7 @@ Wichtig sind auch folgende Sachen:
 ----
 
 ### Dokumentation
-Es ist wichtig, zum Verständnis im Code gewisse Kommentare anzulegen. In PHP gibt es die Möglichkeit [DocBlocks](/wiki/programmiersprachen/php/docblock) zu schreiben. Diese Möglichkeit sollte man nutzen.
+Es ist wichtig, zum Verständnis im Code gewisse Kommentare anzulegen. In PHP gibt es die Möglichkeit [DocBlocks](/de/wiki/programmiersprachen/php/docblock) zu schreiben. Diese Möglichkeit sollte man nutzen.
 
 ----
 
@@ -47,7 +47,7 @@ Mit DRY ist gemeint, dass man Redundanzen vermeiden soll. Also ein mehrfach vork
 ----
 
 ### Return early and often
-Dieses Prinzip ist für Funktionen. Wichtig ist hier, dass man so früh wie möglich einen [return](/wiki/programmiersprachen/php/function#return) macht. Wenn also eine Funktion prüft, ob eine Telefonnummer mehr als 3 und weniger als 50 Zeichen het und der geprüfte Wert 2 Zeichen lang ist, muss man nicht noch prüfen, ob die Telefonnummer kürzer als 50 Zeichen ist. Also kann man nach der (negativ) erfolgten Prüfung bereits Falsch zurückmelden. Ein Beispiel für eine solche Funktion([PHP](/wiki/programmiersprachen/php)):
+Dieses Prinzip ist für Funktionen. Wichtig ist hier, dass man so früh wie möglich einen [return](/de/wiki/programmiersprachen/php/function#return) macht. Wenn also eine Funktion prüft, ob eine Telefonnummer mehr als 3 und weniger als 50 Zeichen het und der geprüfte Wert 2 Zeichen lang ist, muss man nicht noch prüfen, ob die Telefonnummer kürzer als 50 Zeichen ist. Also kann man nach der (negativ) erfolgten Prüfung bereits Falsch zurückmelden. Ein Beispiel für eine solche Funktion([PHP](/de/wiki/programmiersprachen/php)):
 
 
    // richtig:
@@ -105,7 +105,7 @@ Die Zyklomatische Komplexität ist ein Wert, welcher beschreibt, wie viele Pfade
 
 
 Bei einem Programm, welches 7 Prüfungen hat (und einen Endpunkt), das wie folgt konstruiert ist, kann man 5 unabhängige Pfade Zählen:
-![https://www.johner-institut.de/blog/wp-content/uploads/2014/04/Zyklomatische-Komplexit%C3%A4t.png](/wiki/programmiersprachen/zyklomatische-komplexitaet.png)
+![https://www.johner-institut.de/blog/wp-content/uploads/2014/04/Zyklomatische-Komplexit%C3%A4t.png](/de/wiki/programmiersprachen/zyklomatische-komplexitaet.png)
 
 
 
@@ -120,13 +120,13 @@ Bei einem Programm, welches 7 Prüfungen hat (und einen Endpunkt), das wie folgt
 Diese Pfade muss man dann auf Fehler testen, um die Fehleranfälligkeit so niedrig (oder am besten keine) zu halten.
 
 
-Um seien PHP-Code auf die Zyklomatische Komplexität zu testen, kann man [Scrudinizer CI](https://scrutinizer-ci.com/) anwenden. Dazu stellt man sein Projekt [OpenSource](/wiki/opensource) auf [GitHub](https://github.com/) und folgt den Anweisungen auf der Webseite von Scrudinizer CI.
+Um seien PHP-Code auf die Zyklomatische Komplexität zu testen, kann man [Scrudinizer CI](https://scrutinizer-ci.com/) anwenden. Dazu stellt man sein Projekt [OpenSource](/de/wiki/opensource) auf [GitHub](https://github.com/) und folgt den Anweisungen auf der Webseite von Scrudinizer CI.
 
 ----
 
 ### Lesbarkeit
 Viele Projekte werden meistens nicht nur von einer Person betreut. Deshalb ist es wichtig, dass der programmierte Code auch für andere Personen lesbar ist. 
-![No alt text available](/wiki/programmiersprachen/codewritingfool-martinfowler.png )
+![No alt text available](/de/wiki/programmiersprachen/codewritingfool-martinfowler.png )
 Ein schlechtes Beispiel (Java):
   import java.util.Scanner;class test{public static void main(String [] args){Scanner s=new
   Scanner(System.in);int input, output;System.out.print("please enter a number");input=s.nextInt();

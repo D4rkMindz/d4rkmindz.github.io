@@ -1,5 +1,5 @@
 ## iOS testing
-Um die Applikation auf einem iOS Gerät testen zu können, muss man auf dem Gerät die App "Ionic View" installieren. Ein direktes ausliefern der Software wie bei [Android](/ionic/android) geht nicht (bc fy). Deshalb muss man in der Kommandozeile folgenden Befehl eingeben:
+Um die Applikation auf einem iOS Gerät testen zu können, muss man auf dem Gerät die App "Ionic View" installieren. Ein direktes ausliefern der Software wie bei [Android](/de/ionic/android) geht nicht (bc fy). Deshalb muss man in der Kommandozeile folgenden Befehl eingeben:
 
 
 ```

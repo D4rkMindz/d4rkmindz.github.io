@@ -8,7 +8,7 @@ HTML ist eine Seitenbeschreibungssprache (Auszeichnungssprache) für das Interne
 Skelett einer Webseite. 
 
 
-HTML Tags werden von < und > umfasst. Ein schliessendes HTML Tag hat vor dem Tag noch einen Slash (/)
+HTML Tags werden von < und > umfasst. Ein schliessendes HTML Tag hat vor dem Tag noch einen Slash (/de/)
 
 
 
@@ -26,4 +26,4 @@ Ein Beispiel:
 
 
 
-{{indexmenu>:wiki:programmiersprachen:html#3|js}}
+TODO: fix indexmenu>:wiki:programmiersprachen:html#3|js}}

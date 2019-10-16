@@ -17,7 +17,7 @@
 Wenn man Code testen möchte welcher z. B. keinen Return-Wert hat, dann kann man Mocks brauchen um zu registrieren, ob der gewünschte Code ausgeführt wurde. Ein Praxisbeispiel wäre das senden einer Email. Man nicht bei jedem Test eine Email versenden. Man kann sich dann auf das Prüfen des Aufrufs der Mailversandsmethode reduzieren.
 
 
-![No alt text available](/wiki/programmiersprachen/testing/phpunit/unit-testing-mock.png)
+![No alt text available](/de/wiki/programmiersprachen/testing/phpunit/unit-testing-mock.png)
 
 
 ### Mocking in PHP

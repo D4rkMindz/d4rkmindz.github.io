@@ -1,5 +1,5 @@
 ## Requestverlauf
-Ein [HTTP-Request](/wiki/divers/http-request) wird von einem Browser ausgelöst und an einen Server gesendet. Dieser Request durchläuft verschiedene Elemente.
+Ein [HTTP-Request](/de/wiki/divers/http-request) wird von einem Browser ausgelöst und an einen Server gesendet. Dieser Request durchläuft verschiedene Elemente.
 
 
 
@@ -40,4 +40,4 @@ Ein Request wird von einem **Browser** zum Webserver (**Apache**) gesendet. Dort
 | 3    | PHP |
 | 2    | Apache|
 | 1    | Browser |
-Der Response bekommt die Daten der **Festplatte** von der **Engine**, welche von dem [RDBMS](/wiki/programmiersprachen/datenbanken/start#datenbank_modelle) **MySQL** verwaltet werden. Der **PDO**-"Treiber" retourniert die Daten an den **Querybuilder**, welche als Array in eine **Entity** gemappt werden (mittels Hydrator). Die **Businesslogik** veratbeitet danach diese Daten und übergibt sie der Controlleraction, welche diese danach der **View** übergibt. In der View werden die Daten in ein Template gerendert. Mit der gerenderten View wird ein **Response erstellt**, welcher über den Frontcontroller zu **PHP** und schliesslich zu **Apache** weitergeleitet wird. Apache sendet danach den Response über das Internet zurück an den **Browser**.
+Der Response bekommt die Daten der **Festplatte** von der **Engine**, welche von dem [RDBMS](/de/wiki/programmiersprachen/datenbanken/#datenbank_modelle) **MySQL** verwaltet werden. Der **PDO**-"Treiber" retourniert die Daten an den **Querybuilder**, welche als Array in eine **Entity** gemappt werden (mittels Hydrator). Die **Businesslogik** veratbeitet danach diese Daten und übergibt sie der Controlleraction, welche diese danach der **View** übergibt. In der View werden die Daten in ein Template gerendert. Mit der gerenderten View wird ein **Response erstellt**, welcher über den Frontcontroller zu **PHP** und schliesslich zu **Apache** weitergeleitet wird. Apache sendet danach den Response über das Internet zurück an den **Browser**.

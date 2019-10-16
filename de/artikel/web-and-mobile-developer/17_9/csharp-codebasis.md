@@ -8,7 +8,7 @@ Mittels [XAML](https://de.wikipedia.org/wiki/Extensible_Application_Markup_Langu
 Xamarin hat den Vorteil, dass man nur die Views für die verschiedenen Betriebssysteme erneut erstellen muss, jedoch nicht die Geschäftslogik. Eine Applikation in Xamarin ist also schneller entwickelt als zwei native Applikationen.
 
 
-Alternativ dazu gibt es noch [Ionic](/ionic/) oder [React Native](/artikel/phpmagazin/2.18/native-apps-mit-react-native).
+Alternativ dazu gibt es noch [Ionic](/de/ionic/) oder [React Native](/de/artikel/phpmagazin/2.18/native-apps-mit-react-native).
 
 
 ### Fazit

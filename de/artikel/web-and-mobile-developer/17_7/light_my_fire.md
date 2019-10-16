@@ -1,9 +1,9 @@
 # Light my fire
-[Codeigniter](https://codeigniter.com/) ist ein sehr kleines und primitives Framework. Es eignet sich sehr gut zum erstellen kleinerer Applikationen. Die Grundstruktur ist wie in vielen Frameworks die [MVC-Architektur](/wiki/programmiersprachen/php/mvc).
+[Codeigniter](https://codeigniter.com/) ist ein sehr kleines und primitives Framework. Es eignet sich sehr gut zum erstellen kleinerer Applikationen. Die Grundstruktur ist wie in vielen Frameworks die [MVC-Architektur](/de/wiki/programmiersprachen/php/mvc).
 
 
 ### Installation
-Momentan (Codeigniter 3.1.4) ist noch keine Unterstützung für Composer vorhanden. Diese ist jedoch für Version 4 geplant. Folglich muss man unter [codeigniter.com](https://codeigniter.com/) die aktuellste Version herunterladen und in den (unter [XAMPP](/installationen/xampp)) htdocs-Ordner enpacken. Man kann das Rootverzeichnis benennen, wie man möchte. Unter root/application sind folgende Elemente, welche für den Grundaufbau der Applikation essentiell sind:
+Momentan (Codeigniter 3.1.4) ist noch keine Unterstützung für Composer vorhanden. Diese ist jedoch für Version 4 geplant. Folglich muss man unter [codeigniter.com](https://codeigniter.com/) die aktuellste Version herunterladen und in den (unter [XAMPP](/de/installationen/xampp)) htdocs-Ordner enpacken. Man kann das Rootverzeichnis benennen, wie man möchte. Unter root/application sind folgende Elemente, welche für den Grundaufbau der Applikation essentiell sind:
 
 
   * cache

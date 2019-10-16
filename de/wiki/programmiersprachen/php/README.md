@@ -4,4 +4,4 @@ PHP (rekursives Akronym und Backronym für **„PHP: Hypertext Preprocessor“**
 
 (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/PHP))
 [PHP unter Windows Ubuntu Bash](https://joshlockhart.com/php-development-with-the-windows-subsystem-for-linux.html)
-{{indexmenu>:wiki:programmiersprachen:php#1|js#tango.png}}
+TODO: fix indexmenu>:wiki:programmiersprachen:php#1|js#tango.png}}

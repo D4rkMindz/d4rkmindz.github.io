@@ -9,19 +9,19 @@ Ausserdem haben wir uns informiert, ob es eine Möglichkeit gibt, einen Wordpres
   - Prototyp machen lassen
 ### Mockups
 #### Mockup 1 Startseite
-![No alt text available](/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-start.png)
+![No alt text available](/de/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-start.png)
 #### Mockup 2 Startseite
-![No alt text available](/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-start-kleiner-footer.png)
+![No alt text available](/de/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-start-kleiner-footer.png)
 #### Mockup 3 Startseite
-![No alt text available](/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-start-info-mitte.png)
+![No alt text available](/de/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-start-info-mitte.png)
 ### Themes
 #### Splash green
-![No alt text available](/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_splash-green.png)
+![No alt text available](/de/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_splash-green.png)
 #### Flower green
-![No alt text available](/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_flower-green.png)
+![No alt text available](/de/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_flower-green.png)
 #### Minimal White
-![No alt text available](/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_minimal-white.png)
+![No alt text available](/de/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_minimal-white.png)
 #### Splash blue
-![No alt text available](/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_splash-blue.png)
+![No alt text available](/de/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_splash-blue.png)
 #### Bright blue
-![No alt text available](/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_bright-blue.png)
+![No alt text available](/de/lernjournal/privat/bg-muttenz/20170726-bg-muttenz-farbschema_bright-blue.png)

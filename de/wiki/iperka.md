@@ -45,7 +45,7 @@ IPERKA steht für:
 
 
 
-![{{:wiki:iperka.png |](/wiki/iperka.png)
+![{{:wiki:iperka.png |](/de/wiki/iperka.png)
 
 
 (Quelle: [www.konstrukteur-in.ch](http://www.konstrukteur-in.ch/wp-content/uploads/iperka-600x400.jpg), bearbeitet)

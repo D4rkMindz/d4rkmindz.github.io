@@ -2,7 +2,7 @@
 Das Entity Relationship Model (ERM) ist eine Möglichkeit Daten in einer Datenbank strukturiert darzustellen. Es geht darum, Entitätstypen (Menschen) mit Entitäten (Björn Pfoster) und Attributen (Alter) in Relation zu stellen. Zwischen den verschiedenen Entitätstypen können vier verschiedene Relationstypen:
 
 
-![No alt text available](/wiki/programmiersprachen/datenbanken/martinodell.png )
+![No alt text available](/de/wiki/programmiersprachen/datenbanken/martinodell.png )
 Diese Relationen werden über beide Wege geführt. 
 Person ist geboren in (1) Ort, (in einem) Ort sind (0..n) Personen geboren (n/m = viele).
 

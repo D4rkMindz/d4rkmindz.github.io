@@ -1,5 +1,5 @@
 ## Computer
-Ein Computer ist ein Rechner, welcher mittels [Programmiersprachen](/wiki/programmiersprachen) Daten verarbeitet.
+Ein Computer ist ein Rechner, welcher mittels [Programmiersprachen](/de/wiki/programmiersprachen) Daten verarbeitet.
 
 
 Ein Computer ist aus folgenden Teilen aufgebaut:
@@ -25,17 +25,17 @@ Das Mainboard oder auch Motherboard genannt, ist das Skelett von einem Computer.
 
 
 ##### RAM
-Der Arbeitsspeicher (RAM) ist eine flüchtiger Speicher, welcher nur Daten speichert, wenn er Strom hat. Sobald die RAM keinen Strom mehr hat sind alle Daten (z.B. ein Worddokument wird im Arbeitsspeicher zwischengespeichert, bis es definitiv abgespeichert wird) verloren. Also ist wichtig, bevor man den Computer abstellt, dass man zuerst alle Daten sauber abspeichert. Die beste [Daten-Speicher-Strategie](/wiki/321Regel)
+Der Arbeitsspeicher (RAM) ist eine flüchtiger Speicher, welcher nur Daten speichert, wenn er Strom hat. Sobald die RAM keinen Strom mehr hat sind alle Daten (z.B. ein Worddokument wird im Arbeitsspeicher zwischengespeichert, bis es definitiv abgespeichert wird) verloren. Also ist wichtig, bevor man den Computer abstellt, dass man zuerst alle Daten sauber abspeichert. Die beste [Daten-Speicher-Strategie](/de/wiki/321Regel)
 
 
 ##### SSD und HDD
-Eine SSD sowie eine HDD sind Speichermedien, sogenannte Festplatten. Eine SSD hat normalerweise um 250 [Giga Byte GB](/wiki/bytesystem) und eine HDD um 2 [Terra Byte (TB)](/wiki/bytesystem). Am besten ist es, wenn man das System auf einer SSD abspeichert und Daten (Fotos, Dokumente, etc) auf einer HDD. Der Grunnd dafür ist, dass die SSD wesentlich schneller als eine HDD ist.
+Eine SSD sowie eine HDD sind Speichermedien, sogenannte Festplatten. Eine SSD hat normalerweise um 250 [Giga Byte GB](/de/wiki/bytesystem) und eine HDD um 2 [Terra Byte (TB)](/de/wiki/bytesystem). Am besten ist es, wenn man das System auf einer SSD abspeichert und Daten (Fotos, Dokumente, etc) auf einer HDD. Der Grunnd dafür ist, dass die SSD wesentlich schneller als eine HDD ist.
 ##### Netzwekanschluss
 Der Netzwerkanschluss ist der Anschluss für das Internet ist ein ETHERNET-Anschluss (Stand 2016).
 
 
 ##### Grafikkarte
-In jedem Motherboard hat es bereits integrierte Anschlüsse für einen Desktop-Bildschirm (HDMI). Es ist jedoch empfehlenswert, eine Grafikkarte mit einzubauen, da die vorinstallierten Anschlüsse gerade reichen, um ein Betriebssystem aufzusetzen. Wenn man richtig mit einem Computer Arbeiten (Gamen, Photoshop, etc) will, dann ist eine Grafikkarte ein Muss. Eine Grafikkarte ist die Schnittstelle, an der der Computer seine Ergebnisse in [Menschenverständliche](/wiki/human-readable) Datensätze umwandelt.
+In jedem Motherboard hat es bereits integrierte Anschlüsse für einen Desktop-Bildschirm (HDMI). Es ist jedoch empfehlenswert, eine Grafikkarte mit einzubauen, da die vorinstallierten Anschlüsse gerade reichen, um ein Betriebssystem aufzusetzen. Wenn man richtig mit einem Computer Arbeiten (Gamen, Photoshop, etc) will, dann ist eine Grafikkarte ein Muss. Eine Grafikkarte ist die Schnittstelle, an der der Computer seine Ergebnisse in [Menschenverständliche](/de/wiki/human-readable) Datensätze umwandelt.
 
 
 ##### Laufwerke

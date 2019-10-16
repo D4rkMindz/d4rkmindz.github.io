@@ -245,7 +245,7 @@ f30e';
 
 
 ### Import
-Damit man nun das Tag <lazy-img> verwenden kann, muss man noch in der app.module.ts-Datei (/src/app) die Komponenten unter folgenden Punkten hinzufügen:
+Damit man nun das Tag <lazy-img> verwenden kann, muss man noch in der app.module.ts-Datei (/de/src/app) die Komponenten unter folgenden Punkten hinzufügen:
 
 
 LazyImgComponent  -> declarations, entryComponents

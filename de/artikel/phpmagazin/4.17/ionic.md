@@ -1,12 +1,12 @@
 ## Ionic
-Sehr viele Webapplikationen laufen nicht nur über den Desktop, wo die Eingabeelemente die Maus und Tastatur sind, sondern auch über die Mobile Ansicht, bei der Touch das Haupteingabeelement ist. Um seine Webapplikation effizienter in der Mobilen Ansicht darzustellen und nutzbar zu machen kann man entweder auf eine Progressive Web App ([PWA](/artikel/phpmagazin/4.17/progressive_web_app)) oder als Native App anbieten. Bei PWAs ist das ganze recht einfach. Eine Offlineunterstützung ist mittels Service Worker möglich. Möchte man jedoch eingehender auf Systeminterne Funktionen zugreifen, muss man eine Native App entwickeln. Unter Android müsste man in Java, unter iOS müsste man in Swift programmieren, was bedeutet, dass man eine neue Programmiersprache lernen muss. Um jedoch eine App Plattformunabhängig zu entwicklen kann man eine Hybride App entwickeln. Neben den Hybridframeworks NativeScript und React Native gibt es noch Ionic. Diese Frameworks basieren auf den gewohnten Webdeveleopment Techniken.
+Sehr viele Webapplikationen laufen nicht nur über den Desktop, wo die Eingabeelemente die Maus und Tastatur sind, sondern auch über die Mobile Ansicht, bei der Touch das Haupteingabeelement ist. Um seine Webapplikation effizienter in der Mobilen Ansicht darzustellen und nutzbar zu machen kann man entweder auf eine Progressive Web App ([PWA](/de/artikel/phpmagazin/4.17/progressive_web_app)) oder als Native App anbieten. Bei PWAs ist das ganze recht einfach. Eine Offlineunterstützung ist mittels Service Worker möglich. Möchte man jedoch eingehender auf Systeminterne Funktionen zugreifen, muss man eine Native App entwickeln. Unter Android müsste man in Java, unter iOS müsste man in Swift programmieren, was bedeutet, dass man eine neue Programmiersprache lernen muss. Um jedoch eine App Plattformunabhängig zu entwicklen kann man eine Hybride App entwickeln. Neben den Hybridframeworks NativeScript und React Native gibt es noch Ionic. Diese Frameworks basieren auf den gewohnten Webdeveleopment Techniken.
 
 
 
 
 
 ### Beschreibung=
-Das primäre Ziel von Ionic ist, die Enwicklung von hybriden Apps mit [HTML](/wiki/programmiersprachen/html), [CSS](/wiki/programmiersprachen/css) und [JavaScript](/wiki/programmiersprachen/javascript) zu vereinfachen. Zur Verbindung mit dem Betriebssystem kommt [Apache Cordova](https://cordova.apache.org/) zum Einsatz. Für die Struktur ist [Angular](https://angular.io/) verantwortlich. Ionic stellt dem Entwickler von Anfang an mehrere Komponenten wie Listen, Menüs und Eingabeelemente zur Verfügung. Der Look der Komponenten ist jeweils an das verwendete Betriebssystem angepasst. 
+Das primäre Ziel von Ionic ist, die Enwicklung von hybriden Apps mit [HTML](/de/wiki/programmiersprachen/html), [CSS](/de/wiki/programmiersprachen/css) und [JavaScript](/de/wiki/programmiersprachen/javascript) zu vereinfachen. Zur Verbindung mit dem Betriebssystem kommt [Apache Cordova](https://cordova.apache.org/) zum Einsatz. Für die Struktur ist [Angular](https://angular.io/) verantwortlich. Ionic stellt dem Entwickler von Anfang an mehrere Komponenten wie Listen, Menüs und Eingabeelemente zur Verfügung. Der Look der Komponenten ist jeweils an das verwendete Betriebssystem angepasst. 
 
 
 Ionic liefert zusätzlich noch ein Kommandozeileprogramm, mitdem man in der App-Entwicklung alle Phasen von der Initialisierung bis zum Bauen der Applikation ausführen kann.
@@ -41,7 +41,7 @@ Nach diesen Schritten muss man die Testumgebung starten. Dies ist, da der Ionic 
 ```
 $ ionic serve
 ```
-Der Vorteil bei dieser Entwicklung ist, dass bei einer Veränderung des Quellcodes der Browser automatisch aktualisiert wird. Um die App jedoch unter realistischen Umständen zu testen sollte man diese in einem [iOS-](/http/**cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html)Simulator starten.
+Der Vorteil bei dieser Entwicklung ist, dass bei einer Veränderung des Quellcodes der Browser automatisch aktualisiert wird. Um die App jedoch unter realistischen Umständen zu testen sollte man diese in einem [iOS-](/de/http/**cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html)Simulator starten.
 
 
 

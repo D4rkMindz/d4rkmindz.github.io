@@ -1,5 +1,5 @@
 ## Node.JS-VERSION mit Long Term Support
-Mit der neuen [Node.JS](/wiki/programmiersprachen/javascript/nodejs) Version kommen auch viele Neuerungen. Die Version 8 ist eine Long Term Support Version und wird länger 2019 unterstützt.
+Mit der neuen [Node.JS](/de/wiki/programmiersprachen/javascript/nodejs) Version kommen auch viele Neuerungen. Die Version 8 ist eine Long Term Support Version und wird länger 2019 unterstützt.
 
 
 Da der LTS für die Version 4 im April 2018 abläuft, sollte man als Node.JS Entwickler dringendst eine Migration auf die Version 8 in Betracht ziehen. Da auch der Support für die Version 6 bereits in ein bisschen mehr als einem Jahr abläuft, lohnt sich auch hier die Migration.

@@ -1,5 +1,5 @@
 ## Dependency Inversion Principle
-Das Dependency Inversion Principle (DIP) ist das D in [SOLID](/wiki/programmiersprachen/php/solid). Es definiert, dass man einen Aufruf nur in eine Richtung machen kann (Ein Controller kann einen Service aufrufen aber nicht umgekehrt). Die offizielle Definition lautet jedoch wie folgt:
+Das Dependency Inversion Principle (DIP) ist das D in [SOLID](/de/wiki/programmiersprachen/php/solid). Es definiert, dass man einen Aufruf nur in eine Richtung machen kann (Ein Controller kann einen Service aufrufen aber nicht umgekehrt). Die offizielle Definition lautet jedoch wie folgt:
 
 
 

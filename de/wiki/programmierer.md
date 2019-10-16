@@ -3,4 +3,4 @@
 
 
 Ein Programmierer ist ein Wesen, welches aus Pizza und Kaffee eine Software macht.
-[Wiki](/wiki/)
+[Wiki](/de/wiki/)

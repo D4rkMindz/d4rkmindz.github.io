@@ -48,7 +48,7 @@ Es ist immer wichtig, ein gute strukturiertes Odernersystem auf seiner Webseite 
        |
        |--composer.lock
        |
-       |--build.xml ([ANT](/installationen/ant))
+       |--build.xml ([ANT](/de/installationen/ant))
        |
        |--index.php
        |

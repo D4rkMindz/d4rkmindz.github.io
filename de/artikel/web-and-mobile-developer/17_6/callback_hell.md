@@ -1,5 +1,5 @@
 ## Callback Hell
-Wenn man heute in [JavaScript](/wiki/programmiersprachen/javascript) eine Applikation entwicklet kann es aufgrund der Asynchronität zu einer sogenannten "Callback hell" (engl., Callback Hölle) kommen. Ein Beispiel für eine Callback Hell ist der unten stehende Code:
+Wenn man heute in [JavaScript](/de/wiki/programmiersprachen/javascript) eine Applikation entwicklet kann es aufgrund der Asynchronität zu einer sogenannten "Callback hell" (engl., Callback Hölle) kommen. Ein Beispiel für eine Callback Hell ist der unten stehende Code:
 ```javascript
 step1(function(value1){
   step2(value1, function(value2){
@@ -17,7 +17,7 @@ Um solche Situationen zu vermeiden wurden 2011 Promises entwickelt. Diese Promis
 
 
 
-![No alt text available](/artikel/web-and-mobile-developer/6_17/promises.png )
+![No alt text available](/de/artikel/web-and-mobile-developer/6_17/promises.png )
 
 | Zustand |
 | ------- | Beschreibung ^

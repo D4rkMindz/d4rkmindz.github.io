@@ -8,11 +8,11 @@ und Webseite. Man kann auch Variabeln und Funktionen Definieren. Diese
 Programmiersprache ist Serverseitig.
 
 
-![No alt text available](/wiki/780px-php_funktionsweise.svg.png)
+![No alt text available](/de/wiki/780px-php_funktionsweise.svg.png)
 
 
 
-Die PHP-Syntax ist ähnlich wie die von [C](/wiki/c). 
+Die PHP-Syntax ist ähnlich wie die von [C](/de/wiki/c). 
 
 
 
@@ -29,7 +29,8 @@ Eine Variable ist ein Behälter für einen Wert. Dieser Wert kann folgendes sein
 
 
 Eine Variable wird in PHP wie folgt definiert:
-```php$a       = "String"    String
+```php
+$a       = "String"    String
 $b       = 12          Integer
 $c       = true        Boolean```
 

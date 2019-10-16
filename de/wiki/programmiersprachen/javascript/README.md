@@ -1,5 +1,5 @@
 ## JavaScript
-JavaScript ist eine Browserseitige ([Client-seitige](/wiki/server-_und_client-seitig)) Programmiersprache, welche für [Animationen](http://anime-js.com/) und [DOM-Manipulationen](/wiki/divers/dom) zuständig ist.
+JavaScript ist eine Browserseitige ([Client-seitige](/de/wiki/server-_und_client-seitig)) Programmiersprache, welche für [Animationen](http://anime-js.com/) und [DOM-Manipulationen](/de/wiki/divers/dom) zuständig ist.
 
 
 
@@ -25,6 +25,6 @@ Der heutige Name der ursprünglich LiveScript genannten Sprache entstand 1996 au
 Vorallem in JavaScript wurden in den letzten Jahren etliche Frameworks entwickelt. Beispiele dafür sind:
   * [Vue.js](https://vuejs.org/)
   * [Angular (JS)](https://angular.io/)
-  * [jQuery](/wiki/programmiersprachen/javascript/jquery)
+  * [jQuery](/de/wiki/programmiersprachen/javascript/jquery)
 
-{{indexmenu>:wiki:programmiersprachen:javascript#3|js#tango.png navbar}}
+TODO: fix indexmenu>:wiki:programmiersprachen:javascript#3|js#tango.png navbar}}

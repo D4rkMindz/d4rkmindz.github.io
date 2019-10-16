@@ -36,4 +36,4 @@ section > div {
 Resultat:
 
 
-![No alt text available](/artikel/ct-webdesign/2017/ct-webdeveloper-css-gestaltung-mit-flexboxen.png )
+![No alt text available](/de/artikel/ct-webdesign/2017/ct-webdeveloper-css-gestaltung-mit-flexboxen.png )

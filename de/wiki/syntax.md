@@ -1,6 +1,6 @@
 # Formatting Syntax
 
-[playground](/doku>DokuWiki]] supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing "Edit this page". If you want to try something, just use the [[playground/playground) page. The simpler markup is easily accessible via [quickbuttons](/doku>toolbar), too.
+[playground](/de/doku>DokuWiki]] supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing "Edit this page". If you want to try something, just use the [[playground/playground) page. The simpler markup is easily accessible via [quickbuttons](/de/doku>toolbar), too.
 
 ## Basic Text Formatting
 
@@ -51,7 +51,7 @@ DokuWiki supports multiple ways of creating links.
 
 ### External
 
-External links are recognized automagically: http:**www.google.com|This Link points to google]]. Email addresses like this one: <andi@splitbrain.org> are recognized, too.
+External links are recognized automagically: http://www.google.com|This Link points to google]]. Email addresses like this one: <andi@splitbrain.org> are recognized, too.
 
   DokuWiki supports multiple ways of creating links. External links are recognized
   automagically: http://www.google.com or simply www.google.com - You can set
@@ -60,52 +60,24 @@ External links are recognized automagically: http:**www.google.com|This Link poi
 
 ### Internal
 
-Internal links are created by using square brackets. You can either just give a [link text](/pagename]] or use an additional [[pagename).
+Internal links are created by using square brackets. You can either just give a [link text](/de/pagename]] or use an additional [[pagename).
 
   Internal links are created by using square brackets. You can either just give
-  a [link text](/pagename]] or use an additional [[pagename).
+  a [link text](/de/pagename]] or use an additional [[pagename).
 
-[Wiki pagenames](/doku>pagename) are converted to lowercase automatically, special characters are not allowed.
+[Wiki pagenames](/de/doku>pagename) are converted to lowercase automatically, special characters are not allowed.
 
 You can use [[some:namespaces]] by using a colon in the pagename.
 
   You can use [[some:namespaces]] by using a colon in the pagename.
 
-For details about namespaces see [[doku>namespaces]].
-
-Linking to a specific section is possible, too. Just add the section name behind a hash character as known from HTML. This links to [this Section](/syntax#internal).
-
-  This links to [this Section](/syntax#internal).
-
-Notes:
-
-  * Links to [existing pages](/syntax) are shown in a different style from [[nonexisting]] ones.
-  * DokuWiki does not use [[wp>CamelCase]] to automatically create links by default, but this behavior can be enabled in the [[doku>config]] file. Hint: If DokuWiki is a link, then it's enabled.
-  * When a section's heading is changed, its bookmark changes, too. So don't rely on section linking too much.
-
-### Interwiki
-
-DokuWiki supports [[doku>Interwiki]] links. These are quick links to other Wikis. For example this is a link to Wikipedia's page about Wikis: [[wp>Wiki]].
-
-  DokuWiki supports [[doku>Interwiki]] links. These are quick links to other Wikis.
-  For example this is a link to Wikipedia's page about Wikis: [[wp>Wiki]].
 
 ### Windows Shares
-
-Windows shares like [[
-
-server
-share|this]] are recognized, too. Please note that these only make sense in a homogeneous user group like a corporate [[wp>Intranet]].
-
-  Windows Shares like [[
-
-server
-share|this]] are recognized, too.
 
 Notes:
 
   * For security reasons direct browsing of windows shares only works in Microsoft Internet Explorer per default (and only in the "local zone").
-  * For Mozilla and Firefox it can be enabled through different workaround mentioned in the [Mozilla Knowledge Base](http://kb.mozillazine.org/Links_to_local_pages_do_not_work). However, there will still be a JavaScript warning about trying to open a Windows Share. To remove this warning (for all users), put the following line in ''conf/lang/en/lang.php'' (more details at [localization](/doku>localization#changing_some_localized_texts_and_strings_in_your_installation)): ```
+  * For Mozilla and Firefox it can be enabled through different workaround mentioned in the [Mozilla Knowledge Base](http://kb.mozillazine.org/Links_to_local_pages_do_not_work). However, there will still be a JavaScript warning about trying to open a Windows Share. To remove this warning (for all users), put the following line in ''conf/lang/en/lang.php'' (more details at [localization](/de/doku>localization#changing_some_localized_texts_and_strings_in_your_installation)): ```
 <?php
 /**
  * Customization of the english language file
@@ -116,7 +88,7 @@ $lang['js']['nosmblinks'] = '';
 
 ### Image Links
 
-You can also use an image to link to another internal or external page by combining the syntax for links and [images](/#images_and_other_files) (see below) like this:
+You can also use an image to link to another internal or external page by combining the syntax for links and [images](/de/#images_and_other_files) (see below) like this:
 
   [{{wiki:dokuwiki-128.png}}](http://php.net)
 
@@ -124,7 +96,7 @@ You can also use an image to link to another internal or external page by combin
 
 Please note: The image formatting is the only formatting syntax accepted in link names.
 
-The whole [image](/#images_and_other_files) and [link](/#links) syntax is supported (including image resizing, internal and external images and URLs and interwiki links).
+The whole [image](/de/#images_and_other_files) and [link](/de/#links) syntax is supported (including image resizing, internal and external images and URLs and interwiki links).
 
 ## Footnotes
 
@@ -150,7 +122,7 @@ By using four or more dashes, you can make a horizontal line:
 
 ## Media Files
 
-You can include external and internal [images, videos and audio files](/doku>images) with curly brackets. Optionally you can specify the size of them.
+You can include external and internal [images, videos and audio files](/de/doku>images) with curly brackets. Optionally you can specify the size of them.
 
 Real size:                        {{wiki:dokuwiki-128.png}}
 
@@ -241,7 +213,7 @@ Dokuwiki supports ordered and unordered lists. To create a list item, indent you
   - That's it
 ```
 
-Also take a look at the [FAQ on list items](/doku>faq/lists).
+Also take a look at the [FAQ on list items](/de/doku>faq/lists).
 
 ## Text Conversions
 
@@ -289,9 +261,9 @@ Typography: [[DokuWiki]] can convert simple text characters to their typographic
 "He thought 'It's a man's world'..."
 ```
 
-The same can be done to produce any kind of HTML, it just needs to be added to the [pattern file](/doku>entities).
+The same can be done to produce any kind of HTML, it just needs to be added to the [pattern file](/de/doku>entities).
 
-There are three exceptions which do not come from that pattern file: multiplication entity (640x480), 'single' and "double quotes". They can be turned off through a [config option](/doku>config/typography).
+There are three exceptions which do not come from that pattern file: multiplication entity (640x480), 'single' and "double quotes". They can be turned off through a [config option](/de/doku>config/typography).
 
 ## Quoting
 
@@ -533,7 +505,7 @@ echo '</tr></table>';
 | reverse    | display the last items in the feed first |
 | author     | show item authors names |
 | date       | show item dates |
-| description| show the item description. If [HTML](/doku>config/htmlok) is disabled all tags will be stripped |
+| description| show the item description. If [HTML](/de/doku>config/htmlok) is disabled all tags will be stripped |
 | nosort     | do not sort the items in the feed |
 | **[dhm] | refresh period, where d=days, h=hours, m=minutes. (e.g. 12h = 12 hours). |
 
@@ -559,6 +531,6 @@ Some syntax influences how DokuWiki renders a page without creating any output i
 
 ## Syntax Plugins
 
-DokuWiki's syntax can be extended by [Plugins](/doku>plugins). How the installed plugins are used is described on their appropriate description pages. The following syntax plugins are available in this particular DokuWiki installation:
+DokuWiki's syntax can be extended by [Plugins](/de/doku>plugins). How the installed plugins are used is described on their appropriate description pages. The following syntax plugins are available in this particular DokuWiki installation:
 
 ~~INFO:syntaxplugins~~

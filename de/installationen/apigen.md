@@ -51,7 +51,7 @@ CMD Befehl:
 
 
 ### Composer
-Die Installation über den Composer erfolgt im CMD. Man geht zuerst in das Projekt herein ([Rootverzeichnis](/wiki/root)) und tippt folgenden Befehl:
+Die Installation über den Composer erfolgt im CMD. Man geht zuerst in das Projekt herein ([Rootverzeichnis](/de/wiki/root)) und tippt folgenden Befehl:
    composer require apigen/apigen
 
 

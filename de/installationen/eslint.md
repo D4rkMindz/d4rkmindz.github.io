@@ -1,5 +1,5 @@
 ## ESLint installieren
-[NodeJS](/http/**nodejs.org/en/download/). Nach der installation von NodeJS startet man das CMD und gibt folgenden Befehl ein:
+[NodeJS](/de/http/**nodejs.org/en/download/). Nach der installation von NodeJS startet man das CMD und gibt folgenden Befehl ein:
 ```
 $ eslint --init
 ```

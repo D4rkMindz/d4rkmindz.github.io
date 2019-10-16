@@ -8,7 +8,7 @@ Animationen lassen sich heutzutage mit diversen Technologien umsetzen. Man kann 
 Alternativ dazu kann man auch [SMIL](https://caniuse.com/#feat=svg-smil) verwenden. Dieses ist jedoch bereits in manchen Browsern als deprecated markiert und wird wahrscheinlich bald entfernt.
 
 
-In JavaScript gibt es noch weitere Animations-Libraries wie [GSAP](/http/**greensock.com/) oder [D3 JS](https://d3js.org/).
+In JavaScript gibt es noch weitere Animations-Libraries wie [GSAP](/de/http/**greensock.com/) oder [D3 JS](https://d3js.org/).
 
 
 ### Fazit

@@ -14,7 +14,7 @@ des World Wide Webs beziehungsweise das aufeinanderfolgende Abrufen beliebiger H
 als Verbindung zwischen Webseiten mit Hilfe solch eines Programms wird auch als Internetsurfen 
 
 
-bezeichnet. Neben [HTML](/wiki/programmiersprachen)-Seiten sowie [Javascript](/wiki/programmiersprachen)-Seiten können Webbrowser 
+bezeichnet. Neben [HTML](/de/wiki/programmiersprachen)-Seiten sowie [Javascript](/de/wiki/programmiersprachen)-Seiten können Webbrowser 
 
 
 verschiedene andere Arten von Dokumenten wie zum Beispiel Bilder und PDF-Dokumente anzeigen. 

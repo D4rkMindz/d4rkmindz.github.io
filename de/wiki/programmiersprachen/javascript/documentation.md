@@ -2,7 +2,7 @@
 JSDoc ist eine MarkUp Sprache, welche gebraucht wird um JavaScript Quellcode zu dokumentieren. 
 Der Gebrauch von JSDoc kann einem Programmierer helfen, das implementierte Interface und den Code, 
 welcher er geschrieben hat, zu beschreiben. Es gibt diverse Tools, welche aus diesen JSDocs verständliche Formate wie 
-[HTML](/wiki/programmiersprachen/html) oder [Rich Text Format](https://de.wikipedia.org/wiki/Rich_Text_Format)
+[HTML](/de/wiki/programmiersprachen/html) oder [Rich Text Format](https://de.wikipedia.org/wiki/Rich_Text_Format)
 generieren.
 
 

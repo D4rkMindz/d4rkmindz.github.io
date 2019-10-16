@@ -56,7 +56,7 @@ Wenn man eine Folie zweimal zeigen möchte, ist es nicht sinnvoll wieder zurück
 ----
 
 ### Planung
-Um Erfolg mit einer Präsentation zu haben, muss man sie gut durchdenken und sicher sein, was man macht. Um eine gute Präsentation zu planen, kann man sich beispielsweise dem [I-P-E-R-K-A System](/wiki/iperka) bedienen.
+Um Erfolg mit einer Präsentation zu haben, muss man sie gut durchdenken und sicher sein, was man macht. Um eine gute Präsentation zu planen, kann man sich beispielsweise dem [I-P-E-R-K-A System](/de/wiki/iperka) bedienen.
 
 
 I -> Informieren

@@ -1,7 +1,42 @@
+const navigationDe = require('./navigation-de');
+
 module.exports = {
+
   title: 'A Dev Journal',
   description: 'A pair of notes of a developer',
   base: '/',
+  locales: {
+    '/': {
+      lang: 'en',
+      title: 'A Dev Journal',
+      description: 'A pair of notes of a developer',
+      selectText: 'Languages',
+      label: 'English',
+      ariaLabel: 'Languages',
+      editLinkText: 'Edit this page on GitHub!',
+      serviceWorker: {
+        updatePopup: {
+          message: 'New content is available.',
+          buttonText: 'Refresh',
+        },
+      },
+    },
+    '/de/': {
+      lang: 'de',
+      title: 'Ein Entwicklertagebuch',
+      description: 'Ein paar Notizen von einem Entwickler für Entwickler',
+      selectText: 'Sprachen',
+      label: 'Deutsch',
+      ariaLabel: 'Sprachen',
+      editLinkText: 'Bearbeite diese Seite auf GitHub!',
+      serviceWorker: {
+        updatePopup: {
+          message: 'Neuer Inhalt verfügbar',
+          buttonText: 'Laden',
+        },
+      },
+    },
+  },
   themeConfig: {
     nextLinks: false,
     prevLinks: false,
@@ -26,19 +61,6 @@ module.exports = {
     },
     locales: {
       '/': {
-        lang: 'en-GB',
-        title: 'A Dev Journal',
-        description: 'A pair of notes of a developer',
-        selectText: 'Languages',
-        label: 'English',
-        ariaLabel: 'Languages',
-        editLinkText: 'Edit this page on GitHub!',
-        serviceWorker: {
-          updatePopup: {
-            message: 'New content is available.',
-            buttonText: 'Refresh',
-          },
-        },
         sidebar: [
           ['/', 'Home'],
           {
@@ -46,6 +68,7 @@ module.exports = {
             path: '/tutorials/',
             sidebarDepth: 2,
             children: [
+              ['/tutorials/', 'Start'],
               ['/tutorials/php/', 'PHP'],
               ['/tutorials/xampp/', 'XAMPP']
             ]
@@ -54,40 +77,7 @@ module.exports = {
           ['https://darker.dev', 'About Me']
         ],
       },
-      '/de/': {
-        lang: 'de-CH',
-        title: 'Ein Entwicklertagebuch',
-        description: 'Ein paar Notizen von einem Entwickler für Entwickler',
-        selectText: 'Sprachen',
-        label: 'Deutsch',
-        ariaLabel: 'Sprachen',
-        editLinkText: 'Bearbeite diese Seite auf GitHub!',
-        serviceWorker: {
-          updatePopup: {
-            message: 'Neuer Inhalt verfügbar',
-            buttonText: 'Laden',
-          },
-        },
-        sidebar: [
-          ['/de', 'Start'],
-          {
-            title: 'Tutorials',
-            path: '/tutorials/',
-            sidebarDepth: 2,
-            children: [
-              ['/tutorials/php/', 'PHP (en)'],
-              ['/tutorials/xampp/', 'XAMPP (en)']
-            ]
-          },
-          ['/de/artikel', 'Artikel'],
-          ['/de/installationen', 'Installationen'],
-          ['/de/ionic', 'Ionic'],
-          ['/de/lernjournal', 'Lernjournal'],
-          ['/de/module', 'Module'],
-          ['/de/wiki', 'wiki'],
-          ['https://darker.dev', 'Über mich']
-        ],
-      },
+      '/de/': navigationDe,
     },
   },
   markdown: {

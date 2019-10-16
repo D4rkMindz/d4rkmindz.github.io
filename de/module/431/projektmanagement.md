@@ -90,7 +90,7 @@ Abschlussphase
 Beim Wasserfallmodell wird jeder Punkt chronologisch abgearbeitet. Wenn jedoch ein Punkt nicht erfüllt wird, geht man wieder zurück zum vorherigen Punkt, korrigiert diesen und macht danach weiter. Wenn dieser Punkt jedoch auch fehlerhaft ist, geht man nochmals einen Punkt zurück. 
 
 
-![No alt text available](/module/431/wasserfallmodell.png )
+![No alt text available](/de/module/431/wasserfallmodell.png )
 
 
 
@@ -98,7 +98,7 @@ Beim Wasserfallmodell wird jeder Punkt chronologisch abgearbeitet. Wenn jedoch e
 
 
 Beim V-Modell startet man links. Danach folgt man der Linie. Die Tests werden geplant, wenn man den Punkt auf der gleichen Höhe erreicht (bsp. Analyse => Systemtest planen). Die Tests werden jedoch der Linie entlang ausgefürt (Komponententest => Integrationstest => Systemtest => Abnahmetest).
-![No alt text available](/module/431/v-modell.png )
+![No alt text available](/de/module/431/v-modell.png )
 
 
 
@@ -106,7 +106,7 @@ Beim V-Modell startet man links. Danach folgt man der Linie. Die Tests werden ge
 
 
 Beim Spiralmodell folgt man einfach der Linie. Wenn eine Version fehlerhaft ist, macht man eine neue (Patch).
-![No alt text available](/module/431/spiralmodell.png )
+![No alt text available](/de/module/431/spiralmodell.png )
 
 ----
 ### Reflexion Modelle

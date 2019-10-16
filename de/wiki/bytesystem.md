@@ -20,7 +20,7 @@ Das Byte System ist wie folgt aufgebaut:
 
 
 ##### Definition
-Um die Definiton zu verstehen, muss man zuerst verstehen, wie ein [Computer](/wiki/computer) rechnet. Ein Computer versteht, im Gegensatz zu uns Menschen nur zwei Zustände.
+Um die Definiton zu verstehen, muss man zuerst verstehen, wie ein [Computer](/de/wiki/computer) rechnet. Ein Computer versteht, im Gegensatz zu uns Menschen nur zwei Zustände.
 
 
 Strom   /   kein Strom

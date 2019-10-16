@@ -27,7 +27,7 @@ Ein Tag wird immer geöffnet (<öffnend>) und wieder geschlossen (</schliessend>
    dl          description list
    dt          description list title
    dd          description list definition
-   div         Box ([Boxenmodell](/wiki/boxenmodell))
+   div         Box ([Boxenmodell](/de/wiki/boxenmodell))
    em          empasized (Kursiver) text
    fieldset    Gruppiert die unterhalbliegenden Tags. (Mit einem Rahmen)
    form        Formularfeld
@@ -44,7 +44,7 @@ Ein Tag wird immer geöffnet (<öffnend>) und wieder geschlossen (</schliessend>
    ol          ordered list
    ul          unordered list
    li          Listenpunkt
-   link        Verlinkt zu einer anderen Datei (Bsp.: für [CSS](/wiki/css))
+   link        Verlinkt zu einer anderen Datei (Bsp.: für [CSS](/de/wiki/css))
    option      definiert eine Option in einer Dropdownliste
    p           Paragraph (Text)
    script      JavaScript Tag

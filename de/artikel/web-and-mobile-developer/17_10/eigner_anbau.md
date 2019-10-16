@@ -1,5 +1,5 @@
 ## Eigener Anbau
-[Wordpress](/artikel/ct-webdesign/2017/wordpress-und-seine-konkurrenten) ist ein [Content Management System](/wiki/cms), welches die Erweiterung durch Plugins unterstützt. Dazu muss man lediglich eine PHP-Datei in dem Verzeichnis ''<ProjectRoot>/wpcontent/plugins/<yourPluginName>'' ablegen und am Anfang der Datei einen [DocBlock](/wiki/programmiersprachen/php/docblock) erstellen. Dieser DocBlock muss wie folgt strukturiert sein:
+[Wordpress](/de/artikel/ct-webdesign/2017/wordpress-und-seine-konkurrenten) ist ein [Content Management System](/de/wiki/cms), welches die Erweiterung durch Plugins unterstützt. Dazu muss man lediglich eine PHP-Datei in dem Verzeichnis ''<ProjectRoot>/wpcontent/plugins/<yourPluginName>'' ablegen und am Anfang der Datei einen [DocBlock](/de/wiki/programmiersprachen/php/docblock) erstellen. Dieser DocBlock muss wie folgt strukturiert sein:
 
 
 ```

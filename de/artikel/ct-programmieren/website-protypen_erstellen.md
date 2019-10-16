@@ -1,11 +1,11 @@
 ## Website-Prototypen mit Axure RP erstellen
-[Axure RP](https://www.axure.com/) ist ein Wireframe Programm mit dem sich ganz einfach Skizzen erstellen lassen und anpassen lassen. So lässt sich ganz schnell ein neuer Kundenwunsch oder eine Idee eines [UX-Experten](/wiki/ux) ausprobieren. Für [Lehrer und Studenten](https://www.axure.com/edu) ist die Software kostenlos, für die anderen kostet nach 30 Tagen die [Lizenz](https://www.axure.com/buy) 29 US-Dollar pro Monat.
+[Axure RP](https://www.axure.com/) ist ein Wireframe Programm mit dem sich ganz einfach Skizzen erstellen lassen und anpassen lassen. So lässt sich ganz schnell ein neuer Kundenwunsch oder eine Idee eines [UX-Experten](/de/wiki/ux) ausprobieren. Für [Lehrer und Studenten](https://www.axure.com/edu) ist die Software kostenlos, für die anderen kostet nach 30 Tagen die [Lizenz](https://www.axure.com/buy) 29 US-Dollar pro Monat.
 
 
 
 
 
-Grundsätzlich sollte man immer eine Skizze zuerst fertigen. Danach erzeugt man in Axure sogenannte Wireframes, in welche man dann die Bilder, Texte und andere Elemente einfügen kann. Mit wenigen klicks lassen sich auch Farben anpassen. Mit einem Druck auf F5 wird dann ein Prototyp erzeugt. Dieser ist zwar in validem [HTML](/wiki/programmiersprachen/html), [CSS](/wiki/programmiersprachen/css) und [JavaScript](/wiki/programmiersprachen/javascript) geschrieben, jedoch empfiehlt Axure den Code nur für kleine, statische Websites zu verwenden.
+Grundsätzlich sollte man immer eine Skizze zuerst fertigen. Danach erzeugt man in Axure sogenannte Wireframes, in welche man dann die Bilder, Texte und andere Elemente einfügen kann. Mit wenigen klicks lassen sich auch Farben anpassen. Mit einem Druck auf F5 wird dann ein Prototyp erzeugt. Dieser ist zwar in validem [HTML](/de/wiki/programmiersprachen/html), [CSS](/de/wiki/programmiersprachen/css) und [JavaScript](/de/wiki/programmiersprachen/javascript) geschrieben, jedoch empfiehlt Axure den Code nur für kleine, statische Websites zu verwenden.
 
 
 

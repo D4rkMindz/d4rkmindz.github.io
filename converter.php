@@ -195,6 +195,11 @@ function scan($target, $extension)
         $target = $info['dirname'] . '/' . $info['filename'] . '/README.txt';
       }
 
+      if (strtolower($info['filename']) === 'start') {
+        rename($target, $info['dirname'] . '/README.txt');
+        $target = $info['dirname'] . '/README.txt';
+      }
+
       $result[] = $target;
     }
   }

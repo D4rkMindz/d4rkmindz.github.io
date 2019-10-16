@@ -27,7 +27,7 @@ INSERT INTO products (name, price) VALUES ('Beispielprodukt', 1.99);
 
 
 
-Der AR Pattern verstösst jedoch mit der Kombination aus Datenspeicherung sowie der Datenbanklogik gegen das [Single Responsebility Principle](/wiki/programmiersprachen/programmiertipps/single-responsibility-principle) und ist deshalb ein Anti-Pattern (sollte man nicht mehr brauchen).
+Der AR Pattern verstösst jedoch mit der Kombination aus Datenspeicherung sowie der Datenbanklogik gegen das [Single Responsebility Principle](/de/wiki/programmiersprachen/programmiertipps/single-responsibility-principle) und ist deshalb ein Anti-Pattern (sollte man nicht mehr brauchen).
 
 
 

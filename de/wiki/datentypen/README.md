@@ -2,4 +2,4 @@
 In der Programmierwelt gibt es verschiedene Datentypen:
 
 
-{{indexmenu>:wiki:datentypen#1}}
+TODO: fix indexmenu>:wiki:datentypen#1}}

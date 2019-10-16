@@ -1,5 +1,5 @@
 ## Translation
-Die Übersetzung der Applikation ([i18n](/wiki/programmiersprachen/programmiertipps/internationalisierung)) in verschiedene Sprachen ist eine wichtige Funktion. In Ionic kann man dies erreichen, indem man sich entweder an [dieses Tutorial](https://ionicframework.com/docs/developer-resources/ng2-translate/) durcharbeitet oder folgende Schritte macht:
+Die Übersetzung der Applikation ([i18n](/de/wiki/programmiersprachen/programmiertipps/internationalisierung)) in verschiedene Sprachen ist eine wichtige Funktion. In Ionic kann man dies erreichen, indem man sich entweder an [dieses Tutorial](https://ionicframework.com/docs/developer-resources/ng2-translate/) durcharbeitet oder folgende Schritte macht:
 
 
 
@@ -102,7 +102,7 @@ export function createTranslateLoader(http: Http) {
 
 ```
 ### Übersetzungsdateien
-Der vorher in der createTranslateLoader()-Funktion definerte Pfad ist das Verzeichnis mit den [JSON](/wiki/programmiersprachen/javascript/json) Übersetzungs-Dateien. Diese werden nach der Sprache benannt (bsp.: en.json für ENglisch oder de.json für DEutsch). Diese Dateien sind eigentlich nicht mehr als Key/Value Paare. Der Key wird dann auch im Template verwendet. Wenn man jetzt also den Titel im H3-Tag übersetzen möchte muss man dies wie folgt machen.
+Der vorher in der createTranslateLoader()-Funktion definerte Pfad ist das Verzeichnis mit den [JSON](/de/wiki/programmiersprachen/javascript/json) Übersetzungs-Dateien. Diese werden nach der Sprache benannt (bsp.: en.json für ENglisch oder de.json für DEutsch). Diese Dateien sind eigentlich nicht mehr als Key/Value Paare. Der Key wird dann auch im Template verwendet. Wenn man jetzt also den Titel im H3-Tag übersetzen möchte muss man dies wie folgt machen.
 ```javascript
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -134,7 +134,7 @@ export class HomePage {
 
 }
 ```
-```htlm
+```html
 <ion-header>
   <ion-navbar>
     <button ion-button menuToggle>

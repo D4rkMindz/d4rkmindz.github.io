@@ -36,7 +36,7 @@ Wenn man zum Beispiel bei einem Text den ersten Buchstaben gross schreiben möch
 Die Schrift ist ein sehr wichtiger Faktor bei der Benutzerfreundlichkeit. Man sollte laut [Matthew Butterick](http://practicaltypography.com/) niemals Arial oder Times New Roman verwenden.
 
 
-Ein guter online [WYSIYG-Editor](/wiki/wysiwyg) für Schriften ist [google](/http/**fonts.google.com/).
+Ein guter online [WYSIYG-Editor](/de/wiki/wysiwyg) für Schriften ist [google](/de/http/**fonts.google.com/).
 
 
 

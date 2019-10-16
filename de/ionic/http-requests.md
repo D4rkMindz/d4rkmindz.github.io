@@ -1,5 +1,5 @@
 ## HTTP Requests
-[HTTP-Requests](/wiki/divers/http-request) sind für Applikationen essentiell. Eine simple [Web-API](/wiki/divers/api)-Abfrage ist unter Ionic jedoch schon eine grosse Herausforderung.
+[HTTP-Requests](/de/wiki/divers/http-request) sind für Applikationen essentiell. Eine simple [Web-API](/de/wiki/divers/api)-Abfrage ist unter Ionic jedoch schon eine grosse Herausforderung.
 
 
 
@@ -183,7 +183,7 @@ In der Methode postUser() wird über this.httpProvider (wurde über den construc
 
 
 ### Troubleshooting
-Grundsätzlich sollte man immer [debuggen](/ionic/webstorm-debugging). Auch werden Fehler von Ionic meist direkt in der Konsole angezeigt.
+Grundsätzlich sollte man immer [debuggen](/de/ionic/webstorm-debugging). Auch werden Fehler von Ionic meist direkt in der Konsole angezeigt.
 
 
 Wenn man jedoch einen Request vom Localhost:8100 (Ionic) auf einen PHP-Server (localhost:80/localhost:443) macht, dann darf das nicht funktionieren ([CORS](https://de.wikipedia.org/wiki/Cross-Origin_Resource_Sharing)). Google Chrome stellt jedoch eine [Extension](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi) zur Verfügung, welche CORS erlaubt. Diese UNBEDINGT installieren.

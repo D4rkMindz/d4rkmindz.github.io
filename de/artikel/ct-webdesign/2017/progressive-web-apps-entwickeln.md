@@ -2,7 +2,7 @@
 Die Idee von Progressiven Web-Apps (PWAs) ist, (Web-)Applikationen offline-fähig zu machen. Dafür werden sogenannte ServiceWorker (JavaScript-Code) eingesetzt, welche unabhängig anderer Scripte der Webseite laufen. Diese Scripte lassen sich sehr gut in Google Chrome (Inkognito Modus => weniger caching). Dort findet man in den Entwicklertools das Tab "Application".
 
 
-![No alt text available](/artikel/ct-webdesign/2017/20170907-pwa-chrome-dev-application-tab.png )
+![No alt text available](/de/artikel/ct-webdesign/2017/20170907-pwa-chrome-dev-application-tab.png )
 
 
 In diesem Tab gibt es einen Eintrag Service Worker. Es empfiehlt sich bei der Entwicklung von PWAs die Option "Update on reload" aktiviert zu haben, da dies dafür sorgt, dass der alte Serviceworker durch den neuen ersetzt wird und dabei keine caching probleme auftreten.

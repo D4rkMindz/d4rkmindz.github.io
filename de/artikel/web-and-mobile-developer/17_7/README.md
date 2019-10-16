@@ -1,3 +1,3 @@
 ## Web & Mobile Developer 7/17
 
-{{indexmenu>:artikel:web-and-mobile-developer:17_7#1|js#tango.png}}
+TODO: fix indexmenu>:artikel:web-and-mobile-developer:17_7#1|js#tango.png}}

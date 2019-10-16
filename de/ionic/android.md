@@ -24,15 +24,15 @@ platform-tools hinzufügen.
 Danach muss man Android Studio starten und noch ein paar tools installieren. Dazu klick man beim Start-Screen auf "Configure" (unten rechts) und wählt "SDK Manager" aus.
 
 
-![No alt text available](/ionic/android-manager-start.png )
+![No alt text available](/de/ionic/android-manager-start.png )
 Anschliessend wählt man die Android Version aus, welche man auf dem Smartphone installiert hat (Settings > About Device > Software Info > Android version).
 
 
-![No alt text available](/ionic/android-manager.png )
+![No alt text available](/de/ionic/android-manager.png )
 Um nun über ein an den Computer angeschlossenes Kabel die Applikation direkt starten zu können muss man noch unter "SDK Tools" den "Google USB Driver" und den "Google Web Driver" (opt.) installieren.
 
 
-![No alt text available](/ionic/android-manager-tools.png )
+![No alt text available](/de/ionic/android-manager-tools.png )
 
 
 
