@@ -98,6 +98,7 @@ const navigationDe = {
                   ],
                 },
                 ['/de/wiki/programmiersprachen/datenbanken/sql', 'SQL'],
+                ['/de/wiki/programmiersprachen/datenbanken/dbms', 'DBMS'],
                 ['/de/wiki/programmiersprachen/datenbanken/er-diagramme', 'ER Diagramme'],
                 ['/de/wiki/programmiersprachen/datenbanken/erm', 'ERM'],
                 ['/de/wiki/programmiersprachen/datenbanken/datenbanken-index', 'Index'],
