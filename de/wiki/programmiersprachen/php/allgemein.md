@@ -51,7 +51,8 @@ $brot['hefe'] = "10g"; ```
 **Variante 2**
 
 
-```php$brot = [
+```php
+$brot = [
    "mehl" => 200;
    "wasser" => true;
    "hefe" => "10g";
@@ -61,7 +62,8 @@ $brot['hefe'] = "10g"; ```
 
 ### if / else Statement
 Ein if / else Statement gibt einem die Möglichkeit etwas zu prüfen und darauf zu reagieren. Ein solches Statement kann folgendermassen aussehen (Werte aus dem Abschnitt Variabeln):
-```phpif ($b == 12) {
+```php
+if ($b == 12) {
     echo "Hallo Welt";
 } else {
     echo "Bye Welt";
@@ -89,7 +91,8 @@ wenn die Prüfung den Wert "true" zurückliefert, wird der Code innerhalb der er
 
 
 Man kann auch auf mehrere Werte prüfen (Werte aus dem Abschnitt Variabeln):
-```phpif ($a === "string"){
+```php
+if ($a === "string"){
    echo "$a hat den Wert string";
 } elseif ($b == true) {
    echo "$b ist wahr";
@@ -97,7 +100,8 @@ Man kann auch auf mehrere Werte prüfen (Werte aus dem Abschnitt Variabeln):
    echo "$c ist nicht Int. 12";
 } else {
    echo "nichts ist wahr"
-} ```
+}
+```
 
 
 

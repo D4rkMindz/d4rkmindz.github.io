@@ -2,7 +2,8 @@
 Beim Passwort-hashing geht es darum, dass man seine Passwörter in der Datenbank verschlüsselt. Dies macht man damit, falls jemand aussenstehendes Zugriff auf die Datenbank erhält, diese Person nicht die Passwörter lesen kann. In PHP kann man seit PHP 5.5 die integrierten Funktionen nutzen:
 
 
-```php<?php
+```php
+<?php
 //Check Password
 //db() = function for database connection
 $passwordFromDb = db()->getPassword();

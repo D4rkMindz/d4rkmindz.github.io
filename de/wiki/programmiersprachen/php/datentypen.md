@@ -52,7 +52,8 @@ Will man fünf Werte Speichern, so muss man dies mit Variablen folgendermassen l
 Mit einem array kann man dies allerdings so lösen:
   $werte = array('a' => 'Wert 1', 'b' => 'Wert 2', 'c' => 'Wert 3', 'd' => 'Wert 4', 'e' => 'Wert 5');
 Gibt man nun den das array $werte mit var_dump($werte); aus, so bekommt man:
-```phparray (size=5)
+```php
+array (size=5)
   'a' => string 'Wert 1' (length=6)
   'b' => string 'Wert 2' (length=6)
   'c' => string 'Wert 3' (length=6)

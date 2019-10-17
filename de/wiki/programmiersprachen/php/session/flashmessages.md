@@ -9,12 +9,14 @@ wird "Erfolgreich" zum FlashBag hinzugefügt. Success ist dabei der Status
   warning => orange
   danger  => rot
 Um die Erfolgsmeldung anzuzeigen muss man nur beim rendern des templates den Flash Wert mitgeben
-```php$viewData = [
+```php
+$viewData = [
   'flash' => session()->getFlashBag->all()
 ];
 $this->render('template.html', $viewData);```
 Um den mitgegebenen Wert im Template verwenden zu können, muss man in diesem an der Stelle, an welcher sich die Erfolgsmeldung(en) befinden soll(en), folgendes hinzufügen:
-```php<?php foreach($this->next('flash') as $type => $messages) : ?>
+```php
+<?php foreach($this->next('flash') as $type => $messages) : ?>
    <?php foreach($messages as $message) : ?>
        <div class="alert alert-<?= $type ?>" role="alert">
            <span class="help-block"><?= $message ?></span>
