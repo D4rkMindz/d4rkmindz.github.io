@@ -1,5 +1,6 @@
 ## Login
-```phpsession_start();
+```php
+session_start();
 session_regenerate_id(true);
 require_once _DIR_ . '/../vendor/autoload.php';
 require_once "../config/config.php";
@@ -45,4 +46,5 @@ function check_pass($data, $config)
     } else {
         return false;
     }
-} ```
+}
+```
