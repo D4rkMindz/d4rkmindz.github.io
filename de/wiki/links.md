@@ -144,3 +144,54 @@
 
 [Best Practicies for building great API developer portals](https://hashnode.com/post/best-practices-for-building-great-api-developer-portals-cjg1q96ow00uilws2hyoku3wm)
 
+
+---
+
+##IPA
+
+**Use Case Diagram**
+- [https://en.wikipedia.org/wiki/Use_case_diagram](https://en.wikipedia.org/wiki/Use_case_diagram)
+- [https://www.smartdraw.com/use-case-diagram/](https://www.smartdraw.com/use-case-diagram/)
+- [https://www.youtube.com/watch?v=zid-MVo7M-E](https://www.youtube.com/watch?v=zid-MVo7M-E)
+- [https://plantuml-editor.kkeisuke.com/](https://plantuml-editor.kkeisuke.com/)
+
+ 
+
+**Entity–relationship model (ERM)**
+- [https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)
+- [https://de.wikipedia.org/wiki/Entity-Relationship-Modell](https://de.wikipedia.org/wiki/Entity-Relationship-Modell)
+
+ 
+
+**Gantt chart / Diagramm**
+- [https://en.wikipedia.org/wiki/Gantt_chart](https://en.wikipedia.org/wiki/Gantt_chart)
+- [https://de.wikipedia.org/wiki/Gantt-Diagramm](https://de.wikipedia.org/wiki/Gantt-Diagramm)
+- [https://products.office.com/en/project/project-and-portfolio-management-software](https://products.office.com/en/project/project-and-portfolio-management-software)
+- [https://www.workzone.com/blog/24-microsoft-project-alternatives-for-project-management-free-and-paid/](https://www.workzone.com/blog/24-microsoft-project-alternatives-for-project-management-free-and-paid/)
+- Auch mit Excel möglich
+
+ 
+
+**Flowchart / Flussdiagram**
+- [https://en.wikipedia.org/wiki/Flowchart](https://en.wikipedia.org/wiki/Flowchart)
+- [https://de.wikipedia.org/wiki/Programmablaufplan](https://de.wikipedia.org/wiki/Programmablaufplan)
+- [https://de.wikipedia.org/wiki/Ablaufdiagramm](https://de.wikipedia.org/wiki/Ablaufdiagramm)
+- [http://www.ibim.de/pl+orga/3-3.htm](http://www.ibim.de/pl+orga/3-3.htm)
+- [https://www.smartdraw.com/flowchart/](https://www.smartdraw.com/flowchart/)
+- [https://www.youtube.com/watch?v=iJmcgQRk048](https://www.youtube.com/watch?v=iJmcgQRk048)
+- [https://www.youtube.com/watch?v=GsfZD4oU7l0](https://www.youtube.com/watch?v=GsfZD4oU7l0)
+- [https://www.youtube.com/watch?v=Lb0db4QNxiw](https://www.youtube.com/watch?v=Lb0db4QNxiw)
+
+ 
+
+**PlanUML**
+- [http://plantuml.com/de/](http://plantuml.com/de/)
+- [https://en.wikipedia.org/wiki/PlantUML](https://en.wikipedia.org/wiki/PlantUML)
+- [https://www.planttext.com/](https://www.planttext.com/)
+- [https://liveuml.com/](https://liveuml.com/)
+- Beispiel: [https://github.com/odan/psr7-skeleton/blob/master/docs/architecture.planuml](https://github.com/odan/psr7-skeleton/blob/master/docs/architecture.planuml)
+
+**Diagramme** in Excel erstellen
+- [https://www.youtube.com/watch?v=70y3pDvuylw](https://www.youtube.com/watch?v=70y3pDvuylw)
+- [https://praxistipps.chip.de/excel-diagramm-erstellen-so-gehts_13286](https://praxistipps.chip.de/excel-diagramm-erstellen-so-gehts_13286)
+- [https://www.heise.de/tipps-tricks/Excel-Diagramm-erstellen-so-geht-s-4088814.html](https://www.heise.de/tipps-tricks/Excel-Diagramm-erstellen-so-geht-s-4088814.html)
