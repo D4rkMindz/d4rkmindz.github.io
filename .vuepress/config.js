@@ -64,6 +64,14 @@ module.exports = {
         sidebar: [
           ['/', 'Home'],
           {
+            title: 'Blog',
+            path: '/blog/',
+            sidebarDepth: 2,
+            children: [
+              ['/blog/2019/how-to-inject-settings-array-in-php-di', 'How To Inject A Settings Array In PHP DI'],
+            ]
+          },
+          {
             title: 'Tutorials',
             path: '/tutorials/',
             sidebarDepth: 2,
